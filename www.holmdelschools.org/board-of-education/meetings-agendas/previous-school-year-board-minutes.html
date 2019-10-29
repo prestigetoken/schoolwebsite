@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]>         <html lang="en-US" class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en-US"> <!--<![endif]-->
+
+<!-- Mirrored from www.holmdelschools.org/board-of-education/meetings-agendas/previous-school-year-board-minutes by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 28 Oct 2019 22:52:03 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta charset="utf-8">
+	
+<script>window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"87d38be11c","applicationID":"11580779,191876530","transactionName":"JVgLEhBaXg4BSxgTWQFSFkkKVFwGCFxoEFQTUA==","queueTime":16,"applicationTime":2038,"agent":""}</script>
+<script>(window.NREUM||(NREUM={})).loader_config={xpid:"UwMPVVVUGwIBUVlSAAYO"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(23),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,s){try{l?l-=1:o(s||new UncaughtException(t,e,n),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t,e){var n=e?null:c.now();i("err",[t,n])}var i=t("handle"),a=t(24),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,p="nr@seenError",l=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(13),t(12),"addEventListener"in window&&t(6),c.xhrWrappable&&t(14),d=!0)}s.on("fn-start",function(t,e,n){d&&(l+=1)}),s.on("fn-err",function(t,e,n){d&&!n[p]&&(f(n,p,function(){return!0}),this.thrown=!0,o(n))}),s.on("fn-end",function(){d&&!this.thrown&&l>0&&(l-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(){j++,L=y.hash,this[u]=x.now()}function o(){j--,y.hash!==L&&i(0,!0);var t=x.now();this[h]=~~this[h]+t-this[u],this[d]=t}function i(t,e){E.emit("newURL",[""+y,e])}function a(t,e){t.on(e,function(){this[e]=x.now()})}var s="-start",c="-end",f="-body",u="fn"+s,d="fn"+c,p="cb"+s,l="cb"+c,h="jsTime",m="fetch",v="addEventListener",w=window,y=w.location,x=t("loader");if(w[v]&&x.xhrWrappable){var g=t(10),b=t(11),E=t(8),R=t(6),O=t(13),C=t(7),P=t(14),T=t(9),N=t("ee"),S=N.get("tracer");t(16),x.features.spa=!0;var L,j=0;N.on(u,r),N.on(p,r),N.on(d,o),N.on(l,o),N.buffer([u,d,"xhr-done","xhr-resolved"]),R.buffer([u]),O.buffer(["setTimeout"+c,"clearTimeout"+s,u]),P.buffer([u,"new-xhr","send-xhr"+s]),C.buffer([m+s,m+"-done",m+f+s,m+f+c]),E.buffer(["newURL"]),g.buffer([u]),b.buffer(["propagate",p,l,"executor-err","resolve"+s]),S.buffer([u,"no-"+u]),T.buffer(["new-jsonp","cb-start","jsonp-error","jsonp-end"]),a(P,"send-xhr"+s),a(N,"xhr-resolved"),a(N,"xhr-done"),a(C,m+s),a(C,m+"-done"),a(T,"new-jsonp"),a(T,"jsonp-end"),a(T,"cb-start"),E.on("pushState-end",i),E.on("replaceState-end",i),w[v]("hashchange",i,!0),w[v]("load",i,!0),w[v]("popstate",function(){i(0,j>1)},!0)}},{}],5:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(13),s=t(12),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",p="resource",l="-start",h="-end",m="fn"+l,v="fn"+h,w="bstTimer",y="pushState",x=t("loader");x.features.stn=!0,t(8);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=x.now())}),o.on(v,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,x.now()])}),a.on(m,function(t,e,n){this.bstStart=x.now(),this.bstType=n}),a.on(v,function(t,e){i(w,[e,this.bstStart,x.now(),this.bstType])}),s.on(m,function(){this.bstStart=x.now()}),s.on(v,function(t,e){i(w,[e,this.bstStart,x.now(),"requestAnimationFrame"])}),o.on(y+l,function(t){this.time=x.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],6:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),s=t(26)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=c(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?s(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],7:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=r.apply(this,arguments);return o.emit(n+"start",arguments,t),t.then(function(e){return o.emit(n+"end",[null,e],t),e},function(e){throw o.emit(n+"end",[e],t),e})})}var o=t("ee").get("fetch"),i=t(23);e.exports=o;var a=window,s="fetch-",c=s+"body-",f=["arrayBuffer","blob","json","text","formData"],u=a.Request,d=a.Response,p=a.fetch,l="prototype";u&&d&&p&&(i(f,function(t,e){r(u[l],e,c),r(d[l],e,c)}),r(a,"fetch",s),o.on(s+"end",function(t,e){var n=this;if(e){var r=e.headers.get("content-length");null!==r&&(n.rxSize=r),o.emit(s+"done",[null,e],n)}else o.emit(s+"done",[t],n)}))},{}],8:[function(t,e,n){var r=t("ee").get("history"),o=t(26)(r);e.exports=r;var i=window.history&&window.history.constructor&&window.history.constructor.prototype,a=window.history;i&&i.pushState&&i.replaceState&&(a=i),o.inPlace(a,["pushState","replaceState"],"-")},{}],9:[function(t,e,n){function r(t){function e(){c.emit("jsonp-end",[],p),t.removeEventListener("load",e,!1),t.removeEventListener("error",n,!1)}function n(){c.emit("jsonp-error",[],p),c.emit("jsonp-end",[],p),t.removeEventListener("load",e,!1),t.removeEventListener("error",n,!1)}var r=t&&"string"==typeof t.nodeName&&"script"===t.nodeName.toLowerCase();if(r){var o="function"==typeof t.addEventListener;if(o){var a=i(t.src);if(a){var u=s(a),d="function"==typeof u.parent[u.key];if(d){var p={};f.inPlace(u.parent,[u.key],"cb-",p),t.addEventListener("load",e,!1),t.addEventListener("error",n,!1),c.emit("new-jsonp",[t.src],p)}}}}}function o(){return"addEventListener"in window}function i(t){var e=t.match(u);return e?e[1]:null}function a(t,e){var n=t.match(p),r=n[1],o=n[3];return o?a(o,e[r]):e[r]}function s(t){var e=t.match(d);return e&&e.length>=3?{key:e[2],parent:a(e[1],window)}:{key:t,parent:window}}var c=t("ee").get("jsonp"),f=t(26)(c);if(e.exports=c,o()){var u=/[?&](?:callback|cb)=([^&#]+)/,d=/(.*)\.([^.]+)/,p=/^(\w+)(\.|$)(.*)$/,l=["appendChild","insertBefore","replaceChild"];Node&&Node.prototype&&Node.prototype.appendChild?f.inPlace(Node.prototype,l,"dom-"):(f.inPlace(HTMLElement.prototype,l,"dom-"),f.inPlace(HTMLHeadElement.prototype,l,"dom-"),f.inPlace(HTMLBodyElement.prototype,l,"dom-")),c.on("dom-start",function(t){r(t[0])})}},{}],10:[function(t,e,n){var r=t("ee").get("mutation"),o=t(26)(r),i=NREUM.o.MO;e.exports=r,i&&(window.MutationObserver=function(t){return this instanceof i?new i(o(t,"fn-")):i.apply(this,arguments)},MutationObserver.prototype=i.prototype)},{}],11:[function(t,e,n){function r(t){var e=a.context(),n=s(t,"executor-",e),r=new f(n);return a.context(r).getCtx=function(){return e},a.emit("new-promise",[r,e],e),r}function o(t,e){return e}var i=t(26),a=t("ee").get("promise"),s=i(a),c=t(23),f=NREUM.o.PR;e.exports=a,f&&(window.Promise=r,["all","race"].forEach(function(t){var e=f[t];f[t]=function(n){function r(t){return function(){a.emit("propagate",[null,!o],i),o=o||!t}}var o=!1;c(n,function(e,n){Promise.resolve(n).then(r("all"===t),r(!1))});var i=e.apply(f,arguments),s=f.resolve(i);return s}}),["resolve","reject"].forEach(function(t){var e=f[t];f[t]=function(t){var n=e.apply(f,arguments);return t!==n&&a.emit("propagate",[t,!0],n),n}}),f.prototype["catch"]=function(t){return this.then(null,t)},f.prototype=Object.create(f.prototype,{constructor:{value:r}}),c(Object.getOwnPropertyNames(f),function(t,e){try{r[e]=f[e]}catch(n){}}),a.on("executor-start",function(t){t[0]=s(t[0],"resolve-",this),t[1]=s(t[1],"resolve-",this)}),a.on("executor-err",function(t,e,n){t[1](n)}),s.inPlace(f.prototype,["then"],"then-",o),a.on("then-start",function(t,e){this.promise=e,t[0]=s(t[0],"cb-",this),t[1]=s(t[1],"cb-",this)}),a.on("then-end",function(t,e,n){this.nextPromise=n;var r=this.promise;a.emit("propagate",[r,!0],n)}),a.on("cb-end",function(t,e,n){a.emit("propagate",[n,!0],this.nextPromise)}),a.on("propagate",function(t,e,n){this.getCtx&&!e||(this.getCtx=function(){if(t instanceof Promise)var e=a.context(t);return e&&e.getCtx?e.getCtx():this})}),r.toString=function(){return""+f})},{}],12:[function(t,e,n){var r=t("ee").get("raf"),o=t(26)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],13:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(26)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],14:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){x.push(t),h&&(b?b.then(a):v?v(a):(E=-E,R.data=E))}function a(){for(var t=0;t<x.length;t++)r([],x[t]);x.length&&(x=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(6);var f=t("ee"),u=f.get("xhr"),d=t(26)(u),p=NREUM.o,l=p.XHR,h=p.MO,m=p.PR,v=p.SI,w="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],x=[];e.exports=u;var g=window.XMLHttpRequest=function(t){var e=new l(t);try{u.emit("new-xhr",[e],e),e.addEventListener(w,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(l,g),g.prototype=l.prototype,d.inPlace(g.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var b=m&&m.resolve();if(!v&&!m){var E=1,R=document.createTextNode(E);new h(a).observe(R,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===w||a()})},{}],15:[function(t,e,n){function r(){var t=window.NREUM,e=t.info.accountID||null,n=t.info.agentID||null,r=t.info.trustKey||null,i="btoa"in window&&"function"==typeof window.btoa;if(!e||!n||!i)return null;var a={v:[0,1],d:{ty:"Browser",ac:e,ap:n,id:o.generateCatId(),tr:o.generateCatId(),ti:Date.now()}};return r&&e!==r&&(a.d.tk=r),btoa(JSON.stringify(a))}var o=t(21);e.exports={generateTraceHeader:r}},{}],16:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<l;r++)t.removeEventListener(p[r],this.listener,!1);e.aborted||(n.duration=s.now()-this.startTime,this.loadCaptureCalled||4!==t.readyState?null==e.status&&(e.status=0):a(this,t),n.cbTime=this.cbTime,d.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime]))}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return v(r)}function i(t,e){var n=f(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}function a(t,e){t.params.status=e.status;var n=o(e,t.lastSize);if(n&&(t.metrics.rxSize=n),t.sameOrigin){var r=e.getResponseHeader("X-NewRelic-App-Data");r&&(t.params.cat=r.split(", ").pop())}t.loadCaptureCalled=!0}var s=t("loader");if(s.xhrWrappable){var c=t("handle"),f=t(17),u=t(15).generateTraceHeader,d=t("ee"),p=["load","error","abort","timeout"],l=p.length,h=t("id"),m=t(20),v=t(19),w=window.XMLHttpRequest;s.features.xhr=!0,t(14),d.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,e.loadCaptureCalled=!1,t.addEventListener("load",function(n){a(e,t)},!1),m&&(m>34||m<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),d.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),d.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid);var n=!1;if("init"in NREUM&&"distributed_tracing"in NREUM.init&&(n=!!NREUM.init.distributed_tracing.enabled),n&&this.sameOrigin){var r=u();r&&e.setRequestHeader("newrelic",r)}}),d.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=v(r);i&&(n.txSize=i)}this.startTime=s.now(),this.listener=function(t){try{"abort"!==t.type||o.loadCaptureCalled||(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{d.emit("internal-error",[n])}catch(r){}}};for(var a=0;a<l;a++)e.addEventListener(p[a],this.listener,!1)}),d.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),d.on("xhr-load-added",function(t,e){var n=""+h(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),d.on("xhr-load-removed",function(t,e){var n=""+h(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),d.on("addEventListener-end",function(t,e){e instanceof w&&"load"===t[0]&&d.emit("xhr-load-added",[t[1],t[2]],e)}),d.on("removeEventListener-end",function(t,e){e instanceof w&&"load"===t[0]&&d.emit("xhr-load-removed",[t[1],t[2]],e)}),d.on("fn-start",function(t,e,n){e instanceof w&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=s.now()))}),d.on("fn-end",function(t,e){this.xhrCbStart&&d.emit("xhr-cb-time",[s.now()-this.xhrCbStart,this.onload,e],e)})}},{}],17:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("../../index.html")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],18:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[f.now()].concat(s(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(23),s=t(24),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(t,e){u[e]=o(p+e,!0,"api")}),u.addPageAction=o(p+"addPageAction",!0),u.setCurrentRouteName=o(p+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[f.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return e.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],n),t}finally{c.emit("fn-end",[f.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){h[e]=o(l+e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now(),!1,e])}},{}],19:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],20:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],21:[function(t,e,n){function r(){function t(){return e?15&e[n++]:16*Math.random()|0}var e=null,n=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&(e=r.getRandomValues(new Uint8Array(31)));for(var o,i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",s=0;s<i.length;s++)o=i[s],"x"===o?a+=t().toString(16):"y"===o?(o=3&t()|8,a+=o.toString(16)):a+=o;return a}function o(){function t(){return e?15&e[n++]:16*Math.random()|0}var e=null,n=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&Uint8Array&&(e=r.getRandomValues(new Uint8Array(31)));for(var o=[],i=0;i<16;i++)o.push(t().toString(16));return o.join("")}e.exports={generateUuid:r,generateCatId:o}},{}],22:[function(t,e,n){function r(t,e){if(!o)return!1;if(t!==o)return!1;if(!e)return!0;if(!i)return!1;for(var n=i.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(o="Safari",i=c[1])}e.exports={agent:o,version:i,match:r}},{}],23:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],24:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],25:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],26:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(24),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof n?n(r,a):n||{}}catch(f){p([f,"",[r,a,o],s])}u(e+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],s),d}finally{u(e+"end",[r,a,c],s)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<e.length;c++)s=e[c],a=t[s],r(a)||(t[s]=n(a,f?s+o:o,i,s))}function u(n,r,o){if(!c||e){var i=c;c=!0;try{t.emit(n,r,o,e)}catch(a){p([a,n,r,o])}c=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){p([r])}for(var o in t)s.call(t,o)&&(e[o]=t[o]);return e}function p(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function n(n,r,o,i){if(!p.aborted||i){t&&t(n,r,o);for(var a=e(o),s=m(n),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[x[n]];return d&&d.push([g,n,r,a]),a}}function l(t,e){y[t]=m(t).concat(e)}function h(t,e){var n=y[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return y[t]||[]}function v(t){return d[t]=d[t]||o(n)}function w(t,e){f(t,function(t,n){e=e||"feature",x[n]=e,e in u||(u[e]=[])})}var y={},x={},g={on:l,addEventListener:l,removeEventListener:h,emit:n,get:v,listeners:m,context:e,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(p.aborted=!0,u=p.backlog={})}var s="nr@context",c=t("gos"),f=t(23),u={},d={},p=e.exports=o();p.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!E++){var t=b.info=NREUM.info,e=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(x,function(e,n){t[e]||(t[e]=n)}),c("mark",["onload",a()+b.offset],null,"api");var n=l.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return R.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(23),u=t("ee"),d=t(22),p=window,l=p.document,h="addEventListener",m="attachEvent",v=p.XMLHttpRequest,w=v&&v.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:v,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var y=""+location,x={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-spa-1130.min.js"},g=v&&w&&w[h]&&!/CriOS/.test(navigator.userAgent),b=e.exports={offset:s,now:a,origin:y,features:{},xhrWrappable:g,userAgent:d};t(18),l[h]?(l[h]("DOMContentLoaded",i,!1),p[h]("load",r,!1)):(l[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",s],null,"api");var E=0,R=t(25)},{}]},{},["loader",2,16,5,3,4]);</script>
+	<title>Previous School Year Board Minutes - Holmdel Township School District</title>
+		<link rel="icon" href="../../uploaded/favicon.ico">
+	<meta name="description" content="Previous School Year Board Minutes - Holmdel Township School District">
+	<meta name="keywords" content="Previous School Year Board Minutes, Holmdel Township School District">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		
+			<link rel="canonical" href="previous-school-year-board-minutes.html">
+			<meta property="og:url" content="https://www.holmdelschools.org/board-of-education/meetings-agendas/previous-school-year-board-minutes">
+		<meta property="og:description" content="Previous School Year Board Minutes - Holmdel Township School District">
+
+
+
+	<meta property="og:title" content="Previous School Year Board Minutes - Holmdel Township School District">
+	<meta property="og:type" content="website">
+
+	<link rel="stylesheet" media="all" href="../../../static.finalsite.net/assets/application-906af0862a71ce2c5025c9274f5de0d3a6062aab01ccd68b52e78eae06801646.css" />
+
+	
+
+	<!-- CF Styles Manager -->
+	<link href="../../styles92eb.css?b" media="screen" rel="stylesheet">
+
+		<link rel="stylesheet" media="all" href="../../uploaded/themes/madison/css/maine35c.css?1541781981" />
+
+	<script src="../../../static.finalsite.net/assets/in_layout_head-49a75163b68835cb4e0be81700e5027338e69a26cfafb834887c08dd9fb22057.js"></script>
+
+		
+		
+
+	<script type="text/javascript">
+		(function(window) {
+			window.FS.currentPage = {
+				dateFormat: 'md',
+				timeFormat: '12'
+			};
+		})(window);
+	</script>
+
+	
+</head>
+<body data-logged-in="false" data-pageid="493" class="fsHasHeader fsHasLeftBanner fsHasMenu fsHasFooter fsHasOneColumnLayout fsSection404 fsHasTheme2">
+
+		<script>
+			dataLayer = [{ 'schoolDomain': 'www.holmdelschools.org' }];
+				dataLayer.push({'uaID': 'UA-27132024-1' });
+
+		</script>
+
+			<noscript>
+				<iframe src="http://www.googletagmanager.com/ns.html?id=GTM-P3BGC7"
+					height="0" width="0" style="display:none;visibility:hidden">
+				</iframe>
+			</noscript>
+			<script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          '../../../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-P3BGC7');
+			</script>
+
+
+<div id="fsPageWrapper">
+
+
+
+				<div id="fsMenu">
+					<div class=" fsMenu fsStyleAutoclear" id="fsEl_493" >
+
+			<section class="fsElement fsNavigation fsList off-canvas-nav" id="fsEl_494" data-use-new="true" >
+
+				<header>
+			<h2 class="fsElementTitle">Main Menu</h2>
+	</header>
+	<div class="fsElementContent">
+		<nav><ul class="fsNavLevel1"><li class="fsNavParentPage"><a href="../../district.html">District</a><div class="fsNavPageInfo"><ul class="fsNavLevel2"><li><a href="../../district/a-continuum-of-schools.html">A Continuum of Schools</a></li><li class="fsNavParentPage"><a href="../../district/aspirations-for-teaching-and-learning.html">Aspirations for Teaching and Learning</a><div class="fsNavPageInfo"><ul class="fsNavLevel3"><li><a href="https://sites.google.com/a/holmdelschools.org/curriculum-guides/">All Curriculum Guides</a></li><li><a href="../../district/aspirations-for-teaching-and-learning/health-and-physical-education.html">Health and Physical Education</a></li><li><a href="https://sites.google.com/a/holmdelschools.org/humanities/">Humanities</a></li><li><a href="https://sites.google.com/a/holmdelschools.org/mathsci/home">Math &amp; Science</a></li><li><a href="../../district/aspirations-for-teaching-and-learning/technology-engineering-and-media-centers.html">Technology, Engineering and Media Centers</a></li><li><a href="https://sites.google.com/a/holmdelschools.org/hhs-world-language-dept/" target="_blank">World Languages</a></li><li><a href="https://sites.google.com/holmdelschools.org/fpa" target="_blank">Visual and Performing Arts</a></li></ul></div></li><li><a href="../../district/accomplishments-and-other-news.html">Accomplishments and Other News</a></li><li><a href="../../district/central-office.html">Central Office</a></li><li class="fsNavParentPage"><a href="../../district/faculty-and-staff-directory.html">Faculty and Staff Directory</a><div class="fsNavPageInfo"><ul class="fsNavLevel3"><li><a href="../../schools/village-school-p-3/staff-directory.html">Village School </a></li><li><a href="../../schools/indian-hill-school-4-6/staff-directory.html">Indian Hill </a></li><li><a href="../../schools/wr-satz-school-7-8/staff-directory.html">Satz</a></li><li><a href="../../schools/holmdel-high-school-9-12/staff-directory.html">High School</a></li></ul></div></li><li><a href="https://sites.google.com/holmdelschools.org/holmdel2020/home">Holmdel 2020 Initiative </a></li><li><a href="../../district/district-calendar-clone.html">Academic Calendars</a></li><li><a href="../../calendar.html">District Detailed Calendar </a></li><li class="fsNavParentPage"><a href="../../district/testing-calendar.html">Testing Calendar</a><div class="fsNavPageInfo"><ul class="fsNavLevel3"><li><a href="https://docs.google.com/document/d/17DTNYmBotdIZh8GaG9MJ3r5dyXx8OUxwq-yFlVxIzZ0/edit?usp=sharing">Annual Assessment Notification</a></li></ul></div></li><li><a href="../../district/emergency-closing-info.html">Emergency Closing Info</a></li><li><a href="../../district/harassment-intimidation-and-bullying.html">Harassment, Intimidation and Bullying</a></li><li><a href="../../departments/building-grounds.html">Lead Testing</a></li><li><a href="../../district/district-news-archive.html">District News Archive</a></li><li><a href="../../district/educational-equity.html">Educational Equity</a></li><li><a href="../../district/title-ix-coordinator.html">Title IX Coordinator</a></li><li><a href="../../district/school-performance-reports.html">School Performance Reports </a></li></ul></div></li><li class="fsNavParentPage"><a href="../../schools.html">Schools</a><div class="fsNavPageInfo"><ul class="fsNavLevel2"><li class="fsNavParentPage"><a href="../../schools/holmdel-high-school-9-12.html">Holmdel High School (9-12)</a><div class="fsNavPageInfo"><ul class="fsNavLevel3"><li><a href="../../schools/holmdel-high-school-9-12/main-office-contacts.html">Main Office Contacts</a></li><li><a href="../../departments/counseling-guidance-services.html" target="_blank">Counseling / Guidance Services</a></li><li><a href="../../schools/holmdel-high-school-9-12/nurses-office.html">Nurse's Office</a></li><li><a href="https://www.holmdelparents.org/holmdel-high-school/">PTSO</a></li><li><a href="../../schools/holmdel-high-school-9-12/staff-directory.html">Staff Directory</a></li><li><a href="https://holmdelk12njus.finalsite.com/uploaded/Schools/Holmdel_High_School/School_Calendar/school_calendar.pdf">School Calendar</a></li><li><a href="../../schools/holmdel-high-school-9-12/directions.html">Directions</a></li><li><a href="../../schools/holmdel-high-school-9-12/section-504.html">Section 504</a></li><li><a href="https://docs.google.com/document/d/1sS8QWa_cMAQcjLRedtrkv_sqSO7mz_OaDhg8UCLfETA/edit?ts=5ba5373c" target="_blank">Weekly Announcements</a></li><li><a href="../../schools/holmdel-high-school-9-12/hs-general-calendar.html">Detailed HS Calendar</a></li><li><a href="../../schools/holmdel-high-school-9-12/more-high-school-information.html">...More High School Information</a></li><li><a href="../../schools/holmdel-high-school-9-12/career-concentrations.html">Career Concentrations </a></li></ul></div></li><li class="fsNavParentPage"><a href="../../schools/wr-satz-school-7-8.html">W.R. Satz School (7-8)</a><div class="fsNavPageInfo"><ul class="fsNavLevel3"><li><a href="../../schools/wr-satz-school-7-8/main-office-contacts.html">Main Office Contacts</a></li><li><a href="../../schools/wr-satz-school-7-8/counseling-guidance-services.html">Counseling / Guidance Services</a></li><li><a href="https://sites.google.com/a/holmdelschools.org/mrs-denton-s-website/home">Nurse's Office</a></li><li><a href="../../schools/wr-satz-school-7-8/center-for-information-inspiration-and-innovation.html">Center for Information, Inspiration and Innovation</a></li><li><a href="https://www.holmdelparents.org/w-r-satz-school/">PSG</a></li><li><a href="../../schools/wr-satz-school-7-8/staff-directory.html">Staff Directory</a></li><li><a href="https://holmdelk12njus.finalsite.com/uploaded/Schools/WR_Satz_School/School_Calendar/school_calendar.pdf">School Calendar</a></li><li><a href="../../schools/wr-satz-school-7-8/directions.html">Directions</a></li><li><a href="../../schools/wr-satz-school-7-8/satz-504.html">Section 504</a></li><li><a href="../../schools/wr-satz-school-7-8/daily-announcements.html">Daily Announcements</a></li><li><a href="../../schools/wr-satz-school-7-8/more-satz-school-information.html">...More Satz School Information</a></li><li><a href="../../schools/wr-satz-school-7-8/washington-dc-trip.html">Washington D.C. Trip</a></li><li><a href="../../schools/wr-satz-school-7-8/washington-medication-clarification.html">Washington Medication Clarification</a></li><li><a href="../../schools/wr-satz-school-7-8/if-my-child-is-bringing-medication-on-the-trip-what-do-i-need-to-do.html">If my child is bringing medication on the trip, what do I need to do?</a></li><li><a href="../../schools/wr-satz-school-7-8/detailed-satz-calendar.html">Detailed Satz Calendar</a></li></ul></div></li><li class="fsNavParentPage"><a href="../../schools/indian-hill-school-4-6.html">Indian Hill School (4-6)</a><div class="fsNavPageInfo"><ul class="fsNavLevel3"><li><a href="../../schools/indian-hill-school-4-6/main-office-contacts.html">Main Office Contacts</a></li><li><a href="../../schools/indian-hill-school-4-6/nurses-office.html">Nurse's Office</a></li><li><a href="https://snacksafely.com/safe-snack-guide/">Safe Snacks</a></li><li><a href="https://sites.google.com/holmdelschools.org/media-center/">Media Center</a></li><li><a href="https://sites.google.com/a/holmdelschools.org/primetime/home">Prime Time - Before and After School Program</a></li><li><a href="https://www.holmdelparents.org/main/indian-hill-school/">PLG</a></li><li><a href="../../schools/indian-hill-school-4-6/staff-directory.html">Staff Directory</a></li><li><a href="https://holmdelk12njus.finalsite.com/uploaded/Schools/Indian_Hill_School/School_Calendar/school_calendar.pdf">School Calendar</a></li><li><a href="../../schools/indian-hill-school-4-6/directions.html">Directions</a></li><li><a href="../../schools/indian-hill-school-4-6/section-504.html">Section 504</a></li><li><a href="../../schools/indian-hill-school-4-6/daily-announcements.html">Daily Announcements</a></li><li><a href="../../schools/indian-hill-school-4-6/more-indian-hill-school-information.html">...More Indian Hill School Information</a></li><li><a href="../../schools/indian-hill-school-4-6/monthly-rotation-calendar.html">Monthly Rotation Calendar</a></li></ul></div></li><li class="fsNavParentPage"><a href="../../schools/village-school-p-3.html">Village School (P-3)</a><div class="fsNavPageInfo"><ul class="fsNavLevel3"><li><a href="../../schools/village-school-p-3/main-office-contacts.html">Main Office Contacts</a></li><li><a href="../../schools/village-school-p-3/nurses-office.html">Nurse's Office</a></li><li class="fsNavParentPage"><a href="../../schools/village-school-p-3/media-centers.html">Media Centers</a><div class="fsNavPageInfo"><ul class="fsNavLevel4"><li><a href="https://sites.google.com/a/holmdelschools.org/cdempsey/">Village Library K&amp;1</a></li><li><a href="https://sites.google.com/a/holmdelschools.org/hbuzzanga/">Village Library 2&amp;3</a></li></ul></div></li><li><a href="https://sites.google.com/a/holmdelschools.org/primetime/home">Prime Time - Before and After School Program</a></li><li><a href="https://www.holmdelparents.org/village-school">PSA</a></li><li><a href="../../schools/village-school-p-3/staff-directory.html">Staff Directory</a></li><li><a href="https://holmdelk12njus.finalsite.com/uploaded/Schools/Village_School/School_Calendar/school_calendar.pdf">School Calendar</a></li><li><a href="../../schools/village-school-p-3/directions.html">Directions</a></li><li><a href="../../schools/village-school-p-3/section-504.html">Section 504</a></li><li><a href="../../schools/village-school-p-3/more-village-school-information.html">...More Village School Information</a></li></ul></div></li></ul></div></li><li class="fsNavParentPage"><a href="../../departments.html">Departments</a><div class="fsNavPageInfo"><ul class="fsNavLevel2"><li><a href="https://holmdelhs-ar.rschooltoday.com/" target="_blank">Athletics</a></li><li><a href="../../departments/building-grounds.html">Building &amp; Grounds</a></li><li class="fsNavParentPage"><a href="../../departments/business-office.html">Business Office</a><div class="fsNavPageInfo"><ul class="fsNavLevel3"><li><a href="../../departments/business-office/budget.html">Budget</a></li></ul></div></li><li class="fsNavParentPage"><a href="../../departments/community-programs.html">Community Programs</a><div class="fsNavPageInfo"><ul class="fsNavLevel3"><li><a href="../../departments/community-programs/prime-time-before-and-after-school-program.html">Prime Time - Before and After School Program</a></li></ul></div></li><li class="fsNavParentPage"><a href="../../departments/counseling-guidance-services.html">Counseling / Guidance Services</a><div class="fsNavPageInfo"><ul class="fsNavLevel3"><li><a href="../../departments/counseling-guidance-services/crisis-info.html">Crisis Info</a></li></ul></div></li><li class="fsNavParentPage"><a href="https://sites.google.com/holmdelschools.org/curriculum-and-instruction/home">Curriculum and Instruction</a><div class="fsNavPageInfo"><ul class="fsNavLevel3"><li><a href="https://sites.google.com/holmdelschools.org/curriculum-guides/home">Curriculum Guides</a></li><li><a href="https://sites.google.com/holmdelschools.org/holmdeltownshippublicschoolsgi">Gifted &amp; Talented Services</a></li><li><a href="https://sites.google.com/holmdelschools.org/healthpeholmdel/home" target="_blank">Health and Physical Education</a></li><li><a href="https://sites.google.com/a/holmdelschools.org/humanities/" target="_blank">Humanities</a></li><li><a href="https://sites.google.com/a/holmdelschools.org/mathsci/" target="_blank">Math &amp; Science</a></li><li><a href="https://sites.google.com/holmdelschools.org/techengineeringmediacenters/home" target="_blank">Technology, Engineering and Media Centers</a></li><li><a href="https://sites.google.com/holmdelschools.org/holmdel-world-language-dept" target="_blank">World Languages</a></li><li><a href="https://sites.google.com/holmdelschools.org/fpa" target="_blank">Visual and Performing Arts</a></li><li><a href="../../departments/curriculum-and-instruction/current-news.html">Current News</a></li><li><a href="../../departments/curriculum-and-instruction/new-page.html">New Page</a></li></ul></div></li><li><a href="../../departments/food-services.html">Food Services</a></li><li><a href="https://sites.google.com/holmdelschools.org/humanities/home" target="_blank">Humanities</a></li><li class="fsNavParentPage"><a href="../../departments/human-resources-and-compliance.html">Human Resources and Compliance</a><div class="fsNavPageInfo"><ul class="fsNavLevel3"><li><a href="../../departments/human-resources-and-compliance/applyview-job-openings.html">Apply/View Job Openings</a></li><li><a href="../../departments/human-resources-and-compliance/job-descriptions.html">Job Descriptions</a></li><li><a href="https://portal.healthconnectsystems.com/MQ/Brokers/BrokerHomePage.aspx?b=69835">Online Health Benefits Center</a></li></ul></div></li><li><a href="https://sites.google.com/holmdelschools.org/mathsciencedepartment/home" target="_blank">Mathematics and Science</a></li><li class="fsNavParentPage"><a href="../../departments/special-services.html">Special Services</a><div class="fsNavPageInfo"><ul class="fsNavLevel3"><li><a href="../../departments/special-services/staff-members.html">Staff Members</a></li><li><a href="../../departments/special-services/resources-information.html">Resources / Information</a></li><li><a href="../../departments/special-services/project-child-find.html">Project Child Find</a></li><li><a href="../../departments/special-services/htboe-sepac.html">HTBOE SEPAC</a></li><li><a href="../../departments/special-services/related-sites.html">Related Sites</a></li><li><a href="https://sites.google.com/a/holmdelschools.org/driegal/" target="_blank">Transition Website</a></li></ul></div></li><li class="fsNavParentPage"><a href="../../departments/technology.html">Technology</a><div class="fsNavPageInfo"><ul class="fsNavLevel3"><li><a href="../../departments/technology/environment.html">Environment</a></li><li><a href="../../departments/technology/network-overview.html">Network Overview</a></li><li><a href="../../departments/technology/tech-plan-report.html">Tech. Plan / Report</a></li><li><a href="../../departments/technology/contact-us.html">Contact Us</a></li><li><a href="../../departments/technology/standards-assessment.html">NJ/National Education Tech Standards &amp; Assessment</a></li></ul></div></li><li><a href="../../departments/transportation.html">Transportation</a></li><li><a href="https://sites.google.com/holmdelschools.org/holmdel-world-language-dept" target="_blank">World Language</a></li></ul></div></li><li class="fsNavParentPage"><a href="../../parents.html">Parents</a><div class="fsNavPageInfo"><ul class="fsNavLevel2"><li><a href="../../parents/parent-resource-listing.html">Parent Resource Listing </a></li><li><a href="https://www.holmdelparents.org/holmdel-high-school/">HHS - Parent Teacher Student Organization (PTSO)</a></li><li><a href="https://www.holmdelparents.org/w-r-satz-school/">Satz - Parent Support Group (PSG)</a></li><li><a href="https://www.holmdelparents.org/main/indian-hill-school/">Indian Hill - Parent Liaison Group (PLG)</a></li><li><a href="https://www.holmdelparents.org/village-school/">Village - Parent School Association (PSA)</a></li><li><a href="http://www.hfee.org/">Holmdel Foundation for Educational Excellence</a></li><li><a href="http://www.holmdeltownship-nj.com/169/Alliance-to-Prevent-Alcoholism-Drug-Abus">Holmdel Alliance</a></li><li class="fsNavParentPage"><a href="../../parents/holmdel-creative-arts-association-hcaa.html">Holmdel Creative Arts Association (H.C.A.A.)</a><div class="fsNavPageInfo"><ul class="fsNavLevel3"><li><a href="../../parents/holmdel-creative-arts-association-hcaa/board-committee-positions.html">Board / Committee Positions</a></li><li><a href="../../parents/holmdel-creative-arts-association-hcaa/current-board-members.html">Current Board Members</a></li><li><a href="../../parents/holmdel-creative-arts-association-hcaa/upcoming-meeting-dates.html">Upcoming Meeting Dates</a></li><li><a href="../../parents/holmdel-creative-arts-association-hcaa/meeting-minutes.html">Meeting Minutes</a></li><li><a href="../../parents/holmdel-creative-arts-association-hcaa/membership.html">Membership</a></li><li><a href="../../parents/holmdel-creative-arts-association-hcaa/gifts-scholarship-recipients.html">Gifts &amp; Scholarship Recipients</a></li><li><a href="../../parents/holmdel-creative-arts-association-hcaa/scholarships-offered.html">Scholarships Offered</a></li><li><a href="../../parents/holmdel-creative-arts-association-hcaa/events.html">Events</a></li></ul></div></li><li><a href="../../parents/special-education-parent-advisory-group-sepac.html">Special Education Parent Advisory Group (S.E.P.A.C.)</a></li><li><a href="http://www.state.nj.us/education/parents/">The Parents' Circle - NJ Department of Education</a></li><li><a href="../../parents/the-meeting-place-teacher-and-faculty-information.html">The Meeting Place - Teacher and Faculty Information</a></li><li><a href="https://www.nwea.org/parent-toolkit/">MAP Parent Toolkit </a></li><li><a href="https://clever.com/in/holmdel" target="_blank">Clever Login</a></li></ul></div></li><li class="fsNavParentPage"><a href="../../students.html">Students</a><div class="fsNavPageInfo"><ul class="fsNavLevel2"><li class="fsNavParentPage"><a href="../../students/teacher-websites.html">Teacher Websites</a><div class="fsNavPageInfo"><ul class="fsNavLevel3"><li><a href="../../schools/holmdel-high-school-9-12/staff-directory.html">High School </a></li><li><a href="../../schools/wr-satz-school-7-8/staff-directory.html">Satz</a></li><li><a href="../../schools/indian-hill-school-4-6/staff-directory.html">Indian Hill </a></li><li><a href="../../schools/village-school-p-3/staff-directory.html">Village </a></li></ul></div></li><li class="fsNavParentPage"><a href="../../students/daily-announcements.html">Daily Announcements</a><div class="fsNavPageInfo"><ul class="fsNavLevel3"><li><a href="https://docs.google.com/document/d/1sS8QWa_cMAQcjLRedtrkv_sqSO7mz_OaDhg8UCLfETA/edit?ts=5ba5373c">High School</a></li><li><a href="../../schools/wr-satz-school-7-8/daily-announcements.html">Satz</a></li><li><a href="../../schools/indian-hill-school-4-6/daily-announcements.html">Indian Hill</a></li><li><a href="../../schools/village-school-p-3/village-news.html">Village </a></li></ul></div></li><li><a href="https://powerschool.holmdelschools.org/public/">Powerschool</a></li><li><a href="https://holmdelhs-ar.rschooltoday.com/">Athletics </a></li><li class="fsNavParentPage"><a href="../../students/student-handbooks.html">Student Handbooks</a><div class="fsNavPageInfo"><ul class="fsNavLevel3"><li><a href="https://holmdelk12njus.finalsite.com/uploaded/Schools/Holmdel_High_School/pdf/hs_student_handbook.pdf">High School </a></li><li><a href="../../uploaded/Schools/WR_Satz_School/pdf/satz_student_handbook.pdf">Satz </a></li><li><a href="../../uploaded/Schools/Indian_Hill_School/pdf/ih_student_handbook.pdf">Indian Hill </a></li><li><a href="../../uploaded/Schools/Village_School/pdf/vil_student_handbook.pdf">Village </a></li></ul></div></li><li><a href="https://docs.google.com/document/d/1yc1HUN_XN4l4owOdE1c3SNsRVTQ7N5XQ3v7kMlexa1I/edit?usp=sharing">Voter Registration Info</a></li></ul></div></li><li class="fsNavParentPage fsNavCurrentPageAncestor"><a href="../../board-of-education.html">Board of Education</a><div class="fsNavPageInfo"><ul class="fsNavLevel2"><li><a href="../board-members.html">Board Members</a></li><li class="fsNavParentPage fsNavCurrentPageAncestor"><a href="../meetings-agendas.html">Meetings &amp; Agendas</a><div class="fsNavPageInfo"><ul class="fsNavLevel3"><li><a href="meeting-audio.html">Meeting Audio</a></li><li class="fsNavCurrentPage"><a href="previous-school-year-board-minutes.html">Previous School Year Board Minutes</a></li></ul></div></li><li><a href="http://www.straussesmay.com/seportal/Public/pubELANOnline.aspx?id=db979825af1b42e381d05b7cebdb5212">Policies</a></li><li class="fsNavParentPage"><a href="../boe-meeting-highlights.html">BOE Meeting Highlights</a><div class="fsNavPageInfo"><ul class="fsNavLevel3"><li><a href="../boe-meeting-highlights/2018-2019.html">2018-2019</a></li><li><a href="../boe-meeting-highlights/2017-2018.html">2017-2018</a></li></ul></div></li><li class="fsNavParentPage"><a href="../committee-reports.html">Committee Reports</a><div class="fsNavPageInfo"><ul class="fsNavLevel3"><li><a href="../committee-reports/previous-years.html">Previous Years</a></li></ul></div></li><li class="fsNavParentPage"><a href="../boe-presentations.html">BOE Presentations</a><div class="fsNavPageInfo"><ul class="fsNavLevel3"><li><a href="../boe-presentations/previous-years.html">Previous Years</a></li></ul></div></li><li><a href="../directions.html">Directions</a></li></ul></div></li></ul></nav>
+	</div>
+
+
+	</section>
+	<section class="fsElement fsNavigation fsList off-canvas-nav" id="fsEl_785" data-use-new="true" >
+
+				<header>
+			<h2 class="fsElementTitle">Explore More</h2>
+	</header>
+	<div class="fsElementContent">
+		<nav><ul class="fsNavLevel1"><li><a href="https://powerschool.holmdelschools.org/public/" target="_blank">Parent Portal</a></li></ul></nav>
+	</div>
+
+
+	</section>
+	<div class="fsElement fsNavigation fsList off-canvas-nav" id="fsEl_835" data-use-new="true" >
+
+				<div class="fsElementContent">
+		<nav><ul class="fsNavLevel1"><li class="fsNavParentPage"><a href="../../quicklinks.html">Quicklinks</a><div class="fsNavPageInfo"><ul class="fsNavLevel2"><li><a href="../../uploaded/District/District_Calendar/school_calendar.pdf" target="_blank">Academic Calendar</a></li><li><a href="../../affirmative-action.html">Affirmative Action</a></li><li><a href="../../calendar.html">District Events Calendar</a></li><li><a href="../../forms.html">Forms</a></li><li><a href="../../community.html">Community</a></li><li><a href="../../news.html">News</a></li><li><a href="../../quicklinks/parent-resources.html">Parent Resources</a></li><li><a href="../../quicklinks/faculty-resources.html">Faculty Resources</a></li></ul></div></li></ul></nav>
+	</div>
+
+
+	</div>
+	<div class="fsElement fsContent giving-button" id="fsEl_786" data-use-new="true" >
+
+				<div class="fsElementContent">
+			<p><a href="../../fs/pages/134.html" data-page-name="Online Donation">Make A Gift</a></p>
+
+	</div>
+
+
+	</div>
+
+
+
+</div>
+
+
+				</div>
+
+			<header id="fsHeader" class="fsHeader">
+				<div class=" fsBanner fsStyleAutoclear" id="fsEl_6036" >
+
+			<div class="fsElement fsContainer topsection" id="fsEl_6037" data-use-new="true" >
+
+				<div class="fsElementContent">
+			<div class="fsElement fsContent site-info-container" id="fsEl_6038" data-use-new="true" >
+
+				<div class="fsElementContent">
+			<a href="../../index.html"><img alt="Holmdel Township Schools" title="Holmdel Township Schools" width="357" src="../../uploaded/themes/madison/images/logo.png"></a>
+
+	</div>
+
+
+	</div>
+	<div class="fsElement fsContainer right-align-container" id="fsEl_6045" data-use-new="true" >
+
+				<div class="fsElementContent">
+			<div class="fsElement fsNavigation fsList nav-const" id="fsEl_6047" data-use-new="true" >
+
+				<div class="fsElementContent">
+		<nav><ul class="fsNavLevel1"><li><a href="https://powerschool.holmdelschools.org/public/" target="_blank">Parent Portal</a></li></ul></nav>
+	</div>
+
+
+	</div>
+	<div class="fsElement fsContent giving-button" id="fsEl_6048" data-use-new="true" >
+
+				<div class="fsElementContent">
+			<p><a href="../../index.html" data-page-name="Home">District Home</a></p>
+
+	</div>
+
+
+	</div>
+	<div class="fsElement fsEmbed fsGoogleTranslate" id="fsEl_6041" data-use-new="true" >
+
+				<div class="fsElementContent">
+		    <div id="google_translate_element"></div>
+<script type="text/javascript">function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', autoDisplay: false}, 'google_translate_element');
+}
+</script>
+<script type="text/javascript" src="../../../translate.google.com/translate_a/elementa0d8.html?cb=googleTranslateElementInit"></script>
+
+	</div>
+
+
+	</div>
+	<div class="fsElement fsNavigation fsList nav-quick" id="fsEl_6049" data-use-new="true" >
+
+				<div class="fsElementContent">
+		<nav><ul class="fsNavLevel1"><li class="fsNavParentPage"><a href="../../quicklinks.html">Quicklinks</a><div class="fsNavPageInfo"><ul class="fsNavLevel2"><li><a href="../../uploaded/District/District_Calendar/school_calendar.pdf" target="_blank">Academic Calendar</a></li><li><a href="../../affirmative-action.html">Affirmative Action</a></li><li><a href="../../calendar.html">District Events Calendar</a></li><li><a href="../../forms.html">Forms</a></li><li><a href="../../community.html">Community</a></li><li><a href="../../news.html">News</a></li><li><a href="../../quicklinks/parent-resources.html">Parent Resources</a></li><li><a href="../../quicklinks/faculty-resources.html">Faculty Resources</a></li></ul></div></li></ul></nav>
+	</div>
+
+
+	</div>
+	<div class="fsElement fsContent top-search" id="fsEl_6039" data-use-new="true" >
+
+				<div class="fsElementContent">
+			<button class="search-trigger">Search</button>
+<form method="get" action="https://www.holmdelschools.org/search-results" role="search">
+  		<label for="q">Search:</label>
+		<input type="text" name="q" id="q" aria-label="search text" placeholder="Search this site" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search this site'">
+		<button type="submit">Submit</button>
+	</form>
+
+	</div>
+
+
+	</div>
+
+
+
+	</div>
+
+
+	</div>
+
+
+
+	</div>
+
+
+	</div>
+	<div class="fsElement fsNavigation fsList nav-main" id="fsEl_6044" data-use-new="true" >
+
+				<div class="fsElementContent">
+		<nav><ul class="fsNavLevel1"><li class="fsNavParentPage"><a href="../../district.html">District</a><div class="fsNavPageInfo"><ul class="fsNavLevel2"><li><a href="../../district/a-continuum-of-schools.html">A Continuum of Schools</a></li><li><a href="../../district/aspirations-for-teaching-and-learning.html">Aspirations for Teaching and Learning</a></li><li><a href="../../district/accomplishments-and-other-news.html">Accomplishments and Other News</a></li><li><a href="../../district/central-office.html">Central Office</a></li><li><a href="../../district/faculty-and-staff-directory.html">Faculty and Staff Directory</a></li><li><a href="https://sites.google.com/holmdelschools.org/holmdel2020/home">Holmdel 2020 Initiative </a></li><li><a href="../../district/district-calendar-clone.html">Academic Calendars</a></li><li><a href="../../calendar.html">District Detailed Calendar </a></li><li><a href="../../district/testing-calendar.html">Testing Calendar</a></li><li><a href="../../district/emergency-closing-info.html">Emergency Closing Info</a></li><li><a href="../../district/harassment-intimidation-and-bullying.html">Harassment, Intimidation and Bullying</a></li><li><a href="../../departments/building-grounds.html">Lead Testing</a></li><li><a href="../../district/district-news-archive.html">District News Archive</a></li><li><a href="../../district/educational-equity.html">Educational Equity</a></li><li><a href="../../district/title-ix-coordinator.html">Title IX Coordinator</a></li><li><a href="../../district/school-performance-reports.html">School Performance Reports </a></li></ul></div></li><li class="fsNavParentPage"><a href="../../schools.html">Schools</a><div class="fsNavPageInfo"><ul class="fsNavLevel2"><li><a href="../../schools/holmdel-high-school-9-12.html">Holmdel High School (9-12)</a></li><li><a href="../../schools/wr-satz-school-7-8.html">W.R. Satz School (7-8)</a></li><li><a href="../../schools/indian-hill-school-4-6.html">Indian Hill School (4-6)</a></li><li><a href="../../schools/village-school-p-3.html">Village School (P-3)</a></li></ul></div></li><li class="fsNavParentPage"><a href="../../departments.html">Departments</a><div class="fsNavPageInfo"><ul class="fsNavLevel2"><li><a href="https://holmdelhs-ar.rschooltoday.com/" target="_blank">Athletics</a></li><li><a href="../../departments/building-grounds.html">Building &amp; Grounds</a></li><li><a href="../../departments/business-office.html">Business Office</a></li><li><a href="../../departments/community-programs.html">Community Programs</a></li><li><a href="../../departments/counseling-guidance-services.html">Counseling / Guidance Services</a></li><li><a href="https://sites.google.com/holmdelschools.org/curriculum-and-instruction/home">Curriculum and Instruction</a></li><li><a href="../../departments/food-services.html">Food Services</a></li><li><a href="https://sites.google.com/holmdelschools.org/humanities/home" target="_blank">Humanities</a></li><li><a href="../../departments/human-resources-and-compliance.html">Human Resources and Compliance</a></li><li><a href="https://sites.google.com/holmdelschools.org/mathsciencedepartment/home" target="_blank">Mathematics and Science</a></li><li><a href="../../departments/special-services.html">Special Services</a></li><li><a href="../../departments/technology.html">Technology</a></li><li><a href="../../departments/transportation.html">Transportation</a></li><li><a href="https://sites.google.com/holmdelschools.org/holmdel-world-language-dept" target="_blank">World Language</a></li></ul></div></li><li class="fsNavParentPage"><a href="../../parents.html">Parents</a><div class="fsNavPageInfo"><ul class="fsNavLevel2"><li><a href="../../parents/parent-resource-listing.html">Parent Resource Listing </a></li><li><a href="https://www.holmdelparents.org/holmdel-high-school/">HHS - Parent Teacher Student Organization (PTSO)</a></li><li><a href="https://www.holmdelparents.org/w-r-satz-school/">Satz - Parent Support Group (PSG)</a></li><li><a href="https://www.holmdelparents.org/main/indian-hill-school/">Indian Hill - Parent Liaison Group (PLG)</a></li><li><a href="https://www.holmdelparents.org/village-school/">Village - Parent School Association (PSA)</a></li><li><a href="http://www.hfee.org/">Holmdel Foundation for Educational Excellence</a></li><li><a href="http://www.holmdeltownship-nj.com/169/Alliance-to-Prevent-Alcoholism-Drug-Abus">Holmdel Alliance</a></li><li><a href="../../parents/holmdel-creative-arts-association-hcaa.html">Holmdel Creative Arts Association (H.C.A.A.)</a></li><li><a href="../../parents/special-education-parent-advisory-group-sepac.html">Special Education Parent Advisory Group (S.E.P.A.C.)</a></li><li><a href="http://www.state.nj.us/education/parents/">The Parents' Circle - NJ Department of Education</a></li><li><a href="../../parents/the-meeting-place-teacher-and-faculty-information.html">The Meeting Place - Teacher and Faculty Information</a></li><li><a href="https://www.nwea.org/parent-toolkit/">MAP Parent Toolkit </a></li><li><a href="https://clever.com/in/holmdel" target="_blank">Clever Login</a></li></ul></div></li><li class="fsNavParentPage"><a href="../../students.html">Students</a><div class="fsNavPageInfo"><ul class="fsNavLevel2"><li><a href="../../students/teacher-websites.html">Teacher Websites</a></li><li><a href="../../students/daily-announcements.html">Daily Announcements</a></li><li><a href="https://powerschool.holmdelschools.org/public/">Powerschool</a></li><li><a href="https://holmdelhs-ar.rschooltoday.com/">Athletics </a></li><li><a href="../../students/student-handbooks.html">Student Handbooks</a></li><li><a href="https://docs.google.com/document/d/1yc1HUN_XN4l4owOdE1c3SNsRVTQ7N5XQ3v7kMlexa1I/edit?usp=sharing">Voter Registration Info</a></li></ul></div></li><li class="fsNavParentPage fsNavCurrentPageAncestor"><a href="../../board-of-education.html">Board of Education</a><div class="fsNavPageInfo"><ul class="fsNavLevel2"><li><a href="../board-members.html">Board Members</a></li><li class="fsNavCurrentPageAncestor"><a href="../meetings-agendas.html">Meetings &amp; Agendas</a></li><li><a href="http://www.straussesmay.com/seportal/Public/pubELANOnline.aspx?id=db979825af1b42e381d05b7cebdb5212">Policies</a></li><li><a href="../boe-meeting-highlights.html">BOE Meeting Highlights</a></li><li><a href="../committee-reports.html">Committee Reports</a></li><li><a href="../boe-presentations.html">BOE Presentations</a></li><li><a href="../directions.html">Directions</a></li></ul></div></li></ul></nav>
+	</div>
+
+
+	</div>
+
+
+
+</div>
+
+
+			</header>
+
+		<div id="fsPageBodyWrapper" class="fsPageBodyWrapper">
+			<div id="fsPageBody" class="fsStyleAutoclear fsPageBody">
+
+					<div id="fsBannerLeft" class="fsBannerLeft">
+						<div class=" fsBanner fsStyleAutoclear" id="fsEl_8" >
+
+			<div class="fsElement fsNavigation fsList nav-sub" id="fsEl_44" data-use-new="true" >
+
+				<div class="fsElementContent">
+		<nav><ul class="fsNavLevel1"><li><a href="../board-members.html">Board Members</a></li><li class="fsNavParentPage fsNavCurrentPageAncestor"><a href="../meetings-agendas.html">Meetings &amp; Agendas</a><div class="fsNavPageInfo"><ul class="fsNavLevel2"><li><a href="meeting-audio.html">Meeting Audio</a></li><li class="fsNavCurrentPage"><a href="previous-school-year-board-minutes.html">Previous School Year Board Minutes</a></li></ul></div></li><li><a href="http://www.straussesmay.com/seportal/Public/pubELANOnline.aspx?id=db979825af1b42e381d05b7cebdb5212">Policies</a></li><li><a href="../boe-meeting-highlights.html">BOE Meeting Highlights</a></li><li><a href="../committee-reports.html">Committee Reports</a></li><li><a href="../boe-presentations.html">BOE Presentations</a></li><li><a href="../directions.html">Directions</a></li></ul></nav>
+	</div>
+
+
+	</div>
+
+
+
+</div>
+
+
+					</div>
+				<main id="fsPageContent" class="fsPageContent">
+							<h1 class="fsPageTitle">Previous School Year Board Minutes</h1>
+
+
+
+
+							<div class="fsPageLayout fsLayout fsOneColumnLayout fsStyleAutoclear" id="fsEl_2574" data-use-new="true" >
+
+				<div class=" fsDiv fsStyleAutoclear" id="fsEl_2575"  >
+
+				<div class="fsElement fsContent" id="fsEl_2576" data-use-new="true" >
+
+				<div class="fsElementContent">
+			<p><strong style="font-size: 1em;">View <i>Approved</i> Board Minutes below by School Year:</strong></p><p></p><p></p>
+
+	</div>
+
+
+	</div>
+	<div class="fsElement fsPanelGroup fsTabs fsPanelIconBefore" id="fsEl_3680" data-use-new="true" >
+
+				<div class="fsElementContent">
+		<ul class="fsTabsNav">
+    <li id="fsTab-6496" class='fsTabsNavItem'>
+			<a href="#fs-panel-6496">2018-2019</a>
+			
+        </li><li id="fsTab-5722" class='fsTabsNavItem'>
+			<a href="#fs-panel-5722">2017-2018</a>
+			
+        </li><li id="fsTab-3722" class='fsTabsNavItem'>
+			<a href="#fs-panel-3722">2015-2016</a>
+			
+        </li><li id="fsTab-3717" class='fsTabsNavItem'>
+			<a href="#fs-panel-3717">2014-2015</a>
+			
+        </li><li id="fsTab-3712" class='fsTabsNavItem'>
+			<a href="#fs-panel-3712">	2013-2014</a>
+			
+        </li><li id="fsTab-3703" class='fsTabsNavItem'>
+			<a href="#fs-panel-3703">2012-2013</a>
+			
+        </li><li id="fsTab-4969" class='fsTabsNavItem'>
+			<a href="#fs-panel-4969">2016-2017</a>
+			
+        </li><li id="fsTab-3701" class='fsTabsNavItem'>
+			<a href="#fs-panel-3701">2011-2012</a>
+			
+        </li><li id="fsTab-3696" class='fsTabsNavItem'>
+			<a href="#fs-panel-3696">2010-2011</a>
+			
+        </li><li id="fsTab-3688" class='fsTabsNavItem'>
+			<a href="#fs-panel-3688">2009-2010</a>
+			
+        </li><li id="fsTab-3686" class='fsTabsNavItem'>
+			<a href="#fs-panel-3686">2008-2009</a>
+			
+        </li>
+
+</ul>
+
+	<section class="fsElement fsPanel fsStyleAutoclear" id="fsEl_6496" data-use-new="true" >
+
+				<header>
+			<h2 class="fsElementTitle"><a href="#fs-panel-6496">2018-2019</a></h2>
+	</header>
+	<div class="fsElementContent">
+		<a id="fs-panel-6496"></a>
+	<div class="fsElement fsContent" id="fsEl_6497" data-use-new="true" >
+
+				<div class="fsElementContent">
+			<ul>
+	<li data-a11y-ignore="pNotUsedAsHeader"><a data-file-name="approved_minutes_6_26_19.pdf" data-resource-uuid="8e10136c-4f41-4dda-8117-8fa8b34db0f5" href="https://resources.finalsite.net/images/v1564673956/holmdelk12njus/o5lyxc2oii71fmur6a9i/approved_minutes_6_26_19.pdf">June 26, 2019</a></li>
+	<li data-a11y-ignore="pNotUsedAsHeader"><a data-file-name="approved_minutes_6_12_19.pdf" data-resource-uuid="16943a8a-7118-4076-8a44-8266626199fb" href="https://resources.finalsite.net/images/v1564673780/holmdelk12njus/dy649ck1671yywhbrrsi/approved_minutes_6_12_19.pdf">June 12, 2019</a></li>
+	<li data-a11y-ignore="pNotUsedAsHeader"><a data-file-name="boe_min_6_6_19.pdf" data-resource-uuid="824a2d96-7a58-42c8-958a-d3bab6c1eb76" href="https://resources.finalsite.net/images/v1561642752/holmdelk12njus/rekpvkyrmsnedcgejy07/boe_min_6_6_19.pdf" target="_blank" title="BOE minutes June 6, 2019">June 6, 2019</a></li>
+	<li data-a11y-ignore="pNotUsedAsHeader"><a data-file-name="boe_min_5_29_19.pdf" data-resource-uuid="cc88f371-0a79-4474-bd46-f32fe936afcc" href="https://resources.finalsite.net/images/v1561642752/holmdelk12njus/msqkd414bhe3vqruzr11/boe_min_5_29_19.pdf" target="_blank" title="BOE minutes May 29, 2019">May 29, 2019</a></li>
+	<li data-a11y-ignore="pNotUsedAsHeader"><a data-file-name="Minutes_5_1_19.pdf" data-resource-uuid="4c9acd2e-e93b-45e4-be74-d7e2a0bc5f7a" href="https://resources.finalsite.net/images/v1559315586/holmdelk12njus/rje987aj2cztea7qknqn/Minutes_5_1_19.pdf">May 1, 2019</a></li>
+	<li><a data-file-name="Minutes_4_3_19.pdf" data-resource-uuid="2859cf2f-27fc-4e02-b501-8d83359406c1" href="https://resources.finalsite.net/images/v1557342139/holmdelk12njus/vkf666wjkrxi2eifvdvr/Minutes_4_3_19.pdf">April 3, 2019</a></li>
+	<li><a data-file-name="Minutes_3_20_19.pdf" data-resource-uuid="7662fc7a-d0df-47d1-9a80-11acb31f608e" href="https://resources.finalsite.net/images/v1554379704/holmdelk12njus/dwqyebfnxpc7xhsf9ok6/Minutes_3_20_19.pdf">March 20, 2019</a></li>
+	<li><a data-file-name="Minutes_2_27_19.pdf" data-resource-uuid="337b80f9-2d67-47af-958c-ab9640b6d42a" href="https://resources.finalsite.net/images/v1553279387/holmdelk12njus/pmyv85odud8wl7n3bxyq/Minutes_2_27_19.pdf">February 27, 2019</a></li>
+	<li><a data-file-name="Minutes_1_30_2019.pdf" data-resource-uuid="0f13a5d7-afb3-409d-8d5b-f7ff9a225513" href="https://resources.finalsite.net/images/v1551448517/holmdelk12njus/t6mzjvsafk3pmcwp1dui/Minutes_1_30_2019.pdf">January 30, 2019</a></li>
+	<li><a data-file-name="Minutes_Reorg_1_2_2019.pdf" data-resource-uuid="20270841-b22a-4d6a-89fa-67d68a4e7b8f" href="https://resources.finalsite.net/images/v1550786684/holmdelk12njus/gfotolqwljst9msd24rp/Minutes_Reorg_1_2_2019.pdf" target="_blank">January 2, 2019</a></li>
+	<li><a data-file-name="Minutes_12_19_18.pdf" data-resource-uuid="e56665ba-de86-4e6f-8033-f55e5cf4db1a" href="https://resources.finalsite.net/images/v1550786685/holmdelk12njus/fewfffjxglddihq00cz3/Minutes_12_19_18.pdf" target="_blank">December 19, 2018</a></li>
+	<li><a data-file-name="Minutes_11_28_18.pdf" data-resource-uuid="98a2be3f-a063-437b-8955-d9abb0098cf7" href="https://resources.finalsite.net/images/v1550786686/holmdelk12njus/xq02l6gcm9r0zpzwzdnb/Minutes_11_28_18.pdf" target="_blank">November 28, 2018</a></li>
+	<li><a data-file-name="Minutes_10_17_2018.pdf" data-resource-uuid="f16942d7-dcd1-4a1d-9934-bdf7359cfde0" href="https://resources.finalsite.net/images/v1550786687/holmdelk12njus/nq3nhya4chn07oyyxy7c/Minutes_10_17_18.pdf" target="_blank">October 17, 2018</a></li>
+	<li><a data-file-name="Minutes_9_26_18_.pdf" data-resource-uuid="42cfb0b7-e7be-4e32-962b-76364aff5a84" href="https://resources.finalsite.net/images/v1552325131/holmdelk12njus/jupgrdlreqoyvmsjtpzy/Minutes_9_26_18_.pdf" target="_blank">September 26, 2018</a></li>
+	<li><a data-file-name="Minutes_8_29_18.pdf" data-resource-uuid="2d435d21-e741-4a47-8f8a-22878db96413" href="https://resources.finalsite.net/images/v1550786690/holmdelk12njus/csmtygw1ktmscivel1vn/Minutes_8_29_18.pdf" target="_blank">August 29, 2018</a></li>
+	<li><a data-file-name="Minutes_8_15_18.pdf" data-resource-uuid="515740d9-8d2f-4752-baf1-efeb7ec7f8fc" href="https://resources.finalsite.net/images/v1550786686/holmdelk12njus/httsutjsluq7ehjwocem/Minutes_8_15_18.pdf" target="_blank">August 15, 2018</a></li>
+	<li><a data-file-name="Minutes_7-25-18docx.pdf" data-resource-uuid="bca7cb2d-acbf-4e05-965b-ef940a82511c" href="https://resources.finalsite.net/images/v1550786687/holmdelk12njus/fv9jwaoevmmxaxnindcm/Minutes_7_25_18.pdf" target="_blank">July 25, 2018</a></li>
+	<li><a data-file-name="Minutes_Retreat_7-18-2018docx.pdf" data-resource-uuid="06b474d7-f6a1-4734-b1de-165d354d2169" href="https://resources.finalsite.net/images/v1550786687/holmdelk12njus/xfp69ynfjagx07tjtpa6/Minutes_Retreat_7_18_18.pdf" target="_blank">July 18, 2018</a></li>
+</ul>
+
+
+	</div>
+
+
+	</div>
+
+
+
+	</div>
+
+
+	</section>
+	<section class="fsElement fsPanel fsStyleAutoclear" id="fsEl_5722" data-use-new="true" >
+
+				<header>
+			<h2 class="fsElementTitle"><a href="#fs-panel-5722">2017-2018</a></h2>
+	</header>
+	<div class="fsElementContent">
+		<a id="fs-panel-5722"></a>
+	<div class="fsElement fsContent" id="fsEl_5723" data-use-new="true" >
+
+				<div class="fsElementContent">
+			<ul>
+	<li><a data-file-name="Minutes_6-27-2018.pdf" data-resource-uuid="4579bd0e-9b57-42e1-9183-7a11de57ee92" href="https://resources.finalsite.net/images/v1550868165/holmdelk12njus/dgsclhrlhcmhubhopn1s/Minutes_6-27-2018.pdf" target="_blank">June 27, 2018</a></li>
+	<li><a data-file-name="Minutes_6-13-2018.pdf" data-resource-uuid="4afea55c-72d6-44a6-b4d8-a0a1b5d5206e" href="https://resources.finalsite.net/images/v1550868139/holmdelk12njus/fwgufinmbq8pzh9dowre/Minutes_6-13-2018.pdf" target="_blank">June 13, 2018</a></li>
+	<li><a data-file-name="Minutes_5_30_2018.pdf" data-resource-uuid="479587b3-1e7d-4d42-942b-10e3cf843cc5" href="https://resources.finalsite.net/images/v1550867749/holmdelk12njus/debeumrnifc2pskd8dmu/Minutes_5_30_2018.pdf" target="_blank">May 30, 2018</a></li>
+	<li><a data-file-name="boe_min_4_25_18.pdf" data-resource-uuid="bbea4a3c-b04b-44a2-a485-c1ba6659632f" href="https://resources.finalsite.net/images/v1550867749/holmdelk12njus/yut5i7xp9wjtlommndlj/boe_min_4_25_18.pdf" target="_blank" title="BOE minutes for the April 25, 2018 meeting">April 25, 2018</a></li>
+	<li><a data-file-name="boe_min_3_28_18.pdf" data-resource-uuid="6bca6589-f1d5-4082-b836-321a049b6023" href="https://resources.finalsite.net/images/v1550867749/holmdelk12njus/z2kp7ewjxhxtilacrn6g/boe_min_3_28_18.pdf" target="_blank" title="BOE minutes for the March 28, 2018 meeting">March 28, 2018</a></li>
+	<li><a data-file-name="boe_min_3_20_18.pdf" data-resource-uuid="c4c90276-ac47-4a30-a6b8-23413c150a69" href="https://resources.finalsite.net/images/v1550867749/holmdelk12njus/l80dc5i0yvdy8p5pujpn/boe_min_3_20_18.pdf" target="_blank" title="BOE minutes for the March 20, 2018 meeting">March 20, 2018</a></li>
+	<li><a data-file-name="boe_min_3_14_18.pdf" data-resource-uuid="e2abb9d1-7ed0-45f0-a731-5f5491bd56ca" href="https://resources.finalsite.net/images/v1550867748/holmdelk12njus/sa8veqa04hyw92uzfql9/boe_min_3_14_18.pdf" target="_blank" title="BOE minutes for the March 14, 2018 meeting">March 14, 2018</a></li>
+	<li><a data-file-name="boe_min_2_28_18.pdf" data-resource-uuid="54ce0499-f3d8-4f60-9f3c-f8f1b37d514e" href="https://resources.finalsite.net/images/v1550867750/holmdelk12njus/kranc1wewa7f7v3lx7zu/boe_min_2_28_18.pdf" target="_blank" title="BOE minutes for the February 28, 2018 meeting">February 28, 2018</a></li>
+	<li><a data-file-name="boe_min_1_31_2018.pdf" data-resource-uuid="1b66b017-e708-4ce0-9348-a2344f476574" href="https://resources.finalsite.net/images/v1550867750/holmdelk12njus/hgj7x74p9ucv229gwkew/boe_min_1_31_2018.pdf" target="_blank">January 31, 2018</a></li>
+	<li><a data-file-name="boe_min_reorg_1_3_18.pdf" data-resource-uuid="2376bd73-ca56-49f8-ada3-ae2396624fa8" href="https://resources.finalsite.net/images/v1550867750/holmdelk12njus/oc2u2pqwkkgyqefbks5j/boe_min_reorg_1_3_18.pdf" target="_blank" title="Link to January 3, 2018 Agenda">January 3, 2018</a></li>
+	<li><a data-file-name="boe_min_12_20_17.pdf" data-resource-uuid="049b39c7-f99e-49cc-b8b4-f963a06158fb" href="https://resources.finalsite.net/images/v1550867751/holmdelk12njus/okrb75edm0ex2t9rurfk/boe_min_12_20_17.pdf" target="_blank" title="Link to December 20,2017 Agenda">December 20,2017</a></li>
+	<li><a data-file-name="boe_min_11_29_17.pdf" data-resource-uuid="1c70b66d-1db2-4c02-ab0e-83d380ba6625" href="https://resources.finalsite.net/images/v1550867751/holmdelk12njus/ksa0ghndzn4frscaqzm3/boe_min_11_29_17.pdf" target="_blank" title="Link to BOE Minutes for November 29, 2017">November 29, 2017</a></li>
+	<li><a data-file-name="boe_min_10_18_17.pdf" data-resource-uuid="81e4e14d-ae05-415f-8c7a-8c8d08ebdf52" href="https://resources.finalsite.net/images/v1550867752/holmdelk12njus/fem9ycbievt2qnienln6/boe_min_10_18_17.pdf" target="_blank" title="Link to October 18, 2017 Agenda">October 18, 2017</a></li>
+	<li><a data-file-name="boe_min_9_27_17.pdf" data-resource-uuid="51b0a1c6-072f-462b-a8bb-499d482ebc19" href="https://resources.finalsite.net/images/v1550867752/holmdelk12njus/jje3qjcptbf6huoslz6p/boe_min_9_27_17.pdf" target="_blank" title="Link to September 27, 2017 Agenda">September 27, 2017</a></li>
+	<li><a data-file-name="boe_min_8_30_17.pdf" data-resource-uuid="66fb8427-a498-4132-93dc-59fae3b94244" href="https://resources.finalsite.net/images/v1550867753/holmdelk12njus/dcchtsxklwnrikx1ld6r/boe_min_8_30_17.pdf" target="_blank" title="Link to August 30, 2017 Agenda">August 30, 201</a>7</li>
+	<li><a data-file-name="boe_min_retreat_8_9_17.pdf" data-resource-uuid="50591587-8e16-4b6e-ac2d-c8f3ac87ee6b" href="https://resources.finalsite.net/images/v1550867752/holmdelk12njus/oy2tstalthhno4y0xof9/boe_min_retreat_8_9_17.pdf" target="_blank" title="Link to August 9, 2017 - Retreat Agenda">August 9, 2017 - Retreat</a></li>
+	<li><a data-file-name="boe_min_7_26_17.pdf" data-resource-uuid="5a76d113-e389-4d5b-b712-4086904856a5" href="https://resources.finalsite.net/images/v1550867753/holmdelk12njus/bavx8mzyvzfxmull7h1p/boe_min_7_26_17.pdf" title="Link to July 26, 2017 Agenda">July 26, 2017</a></li>
+	<li><a data-file-name="boe_min_7_3_17.pdf" data-resource-uuid="39b32827-12e3-43ec-b1c9-fc861dc01c37" href="https://resources.finalsite.net/images/v1550867753/holmdelk12njus/uuvqmwvlrycfyb4wynhv/boe_min_7_3_17.pdf" title="Link to July 3, 2017 Agenda">July 3, 2017</a></li>
+</ul>
+
+
+	</div>
+
+
+	</div>
+
+
+
+	</div>
+
+
+	</section>
+	<section class="fsElement fsPanel fsStyleAutoclear" id="fsEl_3722" data-use-new="true" >
+
+				<header>
+			<h2 class="fsElementTitle"><a href="#fs-panel-3722">2015-2016</a></h2>
+	</header>
+	<div class="fsElementContent">
+		<a id="fs-panel-3722"></a>
+	<div class="fsElement fsContent" id="fsEl_3723" data-use-new="true" >
+
+				<div class="fsElementContent">
+			<ul>
+	<li><a data-file-name="boe_min_jun_29_2016.pdf" data-resource-uuid="9dfeee8d-13d0-48c0-aa9d-feddfaf12344" href="https://resources.finalsite.net/images/v1550868410/holmdelk12njus/abteqgawtzgiejqkf2pm/boe_min_jun_29_2016.pdf" target="_blank">June 29, 2016</a></li>
+	<li><a data-file-name="boe_min_jun_15_2016.pdf" data-resource-uuid="7fe76f2b-6a71-4f94-b8fe-2eafdc91e750" href="https://resources.finalsite.net/images/v1550868411/holmdelk12njus/wbigisvm4ggylhaqc3xr/boe_min_jun_15_2016.pdf" target="_blank">June 15, 2016</a></li>
+	<li><a data-file-name="boe_min_may_25_2016.pdf" data-resource-uuid="183d7ee1-d0c5-4554-8373-a878d40232fc" href="https://resources.finalsite.net/images/v1550868403/holmdelk12njus/assqppwziz4f6cqlkjhb/boe_min_may_25_2016.pdf" target="_blank">May 25, 2016</a></li>
+	<li><a data-file-name="boe_min_may_10_2016.pdf" data-resource-uuid="64dbc1bd-e595-4d06-b2fb-71c1ac02ea14" href="https://resources.finalsite.net/images/v1550868404/holmdelk12njus/g31lmfanl49dcfovfjl6/boe_min_may_10_2016.pdf" target="_blank">May 10, 2016</a></li>
+	<li><a data-file-name="boe_min_may_2_2016.pdf" data-resource-uuid="cb9b5d05-3b40-4f20-aa90-3b90a1850cfe" href="https://resources.finalsite.net/images/v1550868404/holmdelk12njus/xsmpfvykjflxx8jdbhmi/boe_min_may_2_2016.pdf" target="_blank">May 2, 2016</a></li>
+	<li><a data-file-name="boe_min_apr_27_2016.pdf" data-resource-uuid="0bed3849-44e5-4fae-9c24-c70fae352707" href="https://resources.finalsite.net/images/v1550868424/holmdelk12njus/uuhckqlfktlmdzqytc4z/boe_min_apr_27_2016.pdf" target="_blank">April 27, 2016</a></li>
+	<li><a data-file-name="boe_min_apr_13_2016.pdf" data-resource-uuid="ce17d47c-b908-4c23-a8ea-304b54a696b7" href="https://resources.finalsite.net/images/v1550868425/holmdelk12njus/ulq0mxctkp2ot9byvi2x/boe_min_apr_13_2016.pdf" target="_blank">April 13, 2016</a></li>
+	<li><a data-file-name="boe_min_apr_6_2016.pdf" data-resource-uuid="b639373e-c4d7-4f83-beed-a45a608289f7" href="https://resources.finalsite.net/images/v1550868426/holmdelk12njus/nsclkfvvr8wvrejuugh6/boe_min_apr_6_2016.pdf" target="_blank">April 6, 2016</a></li>
+	<li><a data-file-name="boe_min_apr_5_2016.pdf" data-resource-uuid="4735f15f-4f2b-4174-8101-74ecb1592b24" href="https://resources.finalsite.net/images/v1550868427/holmdelk12njus/njiki5prha6zbewqyzxd/boe_min_apr_5_2016.pdf" target="_blank">April 5, 2016</a></li>
+	<li><a data-file-name="boe_min_mar_23_2016.pdf" data-resource-uuid="28901efa-cb2d-4530-87ee-c467f4be156a" href="https://resources.finalsite.net/images/v1550868406/holmdelk12njus/e77fbjzbdvfnpdsey7pc/boe_min_mar_23_2016.pdf" target="_blank">March 23, 2016</a></li>
+	<li><a data-file-name="boe_min_mar_17_2016.pdf" data-resource-uuid="09e87972-7e10-494c-8601-a2d044fda2ec" href="https://resources.finalsite.net/images/v1550868406/holmdelk12njus/go4hzyyy2nntzjr1ytfn/boe_min_mar_17_2016.pdf" target="_blank">March 17, 2016</a></li>
+	<li><a data-file-name="boe_min_mar_15_2016.pdf" data-resource-uuid="1cb2818a-9cfc-4dd4-ab22-fa37cddca507" href="https://resources.finalsite.net/images/v1550868407/holmdelk12njus/tvb0fkudxb3vjlnekcm2/boe_min_mar_15_2016.pdf" target="_blank">March 15, 2016</a></li>
+	<li><a data-file-name="boe_min_mar_9_2016.pdf" data-resource-uuid="4e52b78e-46d8-4a74-9132-672323be63ab" href="https://resources.finalsite.net/images/v1550868408/holmdelk12njus/j1xcijistju6gstxpntu/boe_min_mar_9_2016.pdf" target="_blank">March 9, 2016</a></li>
+	<li><a data-file-name="boe_min_mar_8_2016.pdf" data-resource-uuid="787b8391-0caf-4958-9b87-f229bc95f2c1" href="https://resources.finalsite.net/images/v1550868409/holmdelk12njus/crpzgvu2qm7tr8vutxt4/boe_min_mar_8_2016.pdf" target="_blank">March 8, 2016</a></li>
+	<li><a data-file-name="boe_min_mar_2_2016.pdf" data-resource-uuid="9be95b8f-dccc-4d5e-9b46-b1ad0f516090" href="https://resources.finalsite.net/images/v1550868409/holmdelk12njus/vwu77ktu0qgujc0mrg5d/boe_min_mar_2_2016.pdf" target="_blank">March 2, 2016</a></li>
+	<li><a data-file-name="boe_min_feb_24_2016.pdf" data-resource-uuid="17a660d2-6c0b-4dcc-b2ea-5a0802bef713" href="https://resources.finalsite.net/images/v1550868418/holmdelk12njus/kpznwxelflbdp5cysyrb/boe_min_feb_24_2016.pdf" target="_blank">February 24, 2016</a></li>
+	<li><a data-file-name="boe_min_feb_10_2016.pdf" data-resource-uuid="f2a46d2d-b466-4833-aa4d-2c17170a7554" href="https://resources.finalsite.net/images/v1550868420/holmdelk12njus/wodunr5cn98g2f9lx0zx/boe_min_feb_10_2016.pdf" target="_blank">February 10, 2016</a></li>
+	<li><a data-file-name="boe_min_jan_27_2016.pdf" data-resource-uuid="ce5bf467-4c7b-46c9-942c-798f3a242bc4" href="https://resources.finalsite.net/images/v1550868416/holmdelk12njus/zmvnnjzjp2s6xaiommxw/boe_min_jan_27_2016.pdf" target="_blank">January 27, 2016</a></li>
+	<li><a data-file-name="boe_min_jan_6_2016.pdf" data-resource-uuid="c9964dc4-851d-4e1a-8ad1-61a151db5bf4" href="https://resources.finalsite.net/images/v1550868417/holmdelk12njus/vfkgbypufd8xaqzzwvsv/boe_min_jan_6_2016.pdf" target="_blank">January 6, 2016</a></li>
+	<li><a data-file-name="boe_min_dec_16_2015.pdf" data-resource-uuid="0f313936-3eeb-4189-9fc6-603e1605ba8c" href="https://resources.finalsite.net/images/v1550868421/holmdelk12njus/jzbmrijd3hdjcqlavxqd/boe_min_dec_16_2015.pdf" target="_blank">December 16, 2015</a></li>
+	<li><a data-file-name="boe_min_nov_18_2015.pdf" data-resource-uuid="2e11dede-f62c-4e8d-80a1-c54c52caa3da" href="https://resources.finalsite.net/images/v1550868401/holmdelk12njus/gfhoyil6dtqdww6zlfak/boe_min_nov_18_2015.pdf" target="_blank">November 18, 2015</a></li>
+	<li><a data-file-name="boe_min_oct_28_2015.pdf" data-resource-uuid="3eea2217-5e79-4b3c-8cc9-7df6b6b054b2" href="https://resources.finalsite.net/images/v1550868398/holmdelk12njus/rr6klm3agw6vqnlpg6er/boe_min_oct_28_2015.pdf" target="_blank">October 28, 2015</a></li>
+	<li><a data-file-name="boe_min_oct_14_2015.pdf" data-resource-uuid="9f489400-c345-424c-82fe-c1114c6d8697" href="https://resources.finalsite.net/images/v1550868399/holmdelk12njus/bcbdfu65oa8sifl6a7jw/boe_min_oct_14_2015.pdf" target="_blank">October 14, 2015</a></li>
+	<li><a data-file-name="boe_min_sep_30_2015.pdf" data-resource-uuid="54880d16-a096-4b58-9fde-b161675837b9" href="https://resources.finalsite.net/images/v1550868394/holmdelk12njus/ou9syipyiy8qqza8oxvm/boe_min_sep_30_2015.pdf" target="_blank">September 30, 2015</a></li>
+	<li><a data-file-name="boe_min_sep_24_2015.pdf" data-resource-uuid="0faa660d-fdd6-4243-b665-8974976fe570" href="https://resources.finalsite.net/images/v1550868394/holmdelk12njus/bfvxpzlbcdpvo7wrxpa2/boe_min_sep_24_2015.pdf" target="_blank">September 24, 2015</a></li>
+	<li><a data-file-name="boe_min_sep_16_2015.pdf" data-resource-uuid="5cb5ebc9-a556-4253-9d1e-91105efb9eb9" href="https://resources.finalsite.net/images/v1550868396/holmdelk12njus/q6tifbgcmukt14ddf6vh/boe_min_sep_16_2015.pdf" target="_blank">September 16, 2015</a></li>
+	<li><a data-file-name="boe_min_aug_26_2015.pdf" data-resource-uuid="2769507a-eb7c-46bc-b0d8-4cb45f37fd80" href="https://resources.finalsite.net/images/v1550868423/holmdelk12njus/tyhsqjkz3meg7zrgmc4t/boe_min_aug_26_2015.pdf" target="_blank">August 26, 2015</a></li>
+	<li><a data-file-name="boe_min_jul_29_2015.pdf" data-resource-uuid="3b92d32a-41d4-46e8-80eb-41a31ccd9323" href="https://resources.finalsite.net/images/v1550868413/holmdelk12njus/ahhds3h6uretakw94kwl/boe_min_jul_29_2015.pdf" target="_blank">July 29, 2015</a></li>
+	<li><a data-file-name="boe_min_jul_27_2015.pdf" data-resource-uuid="dbf7e01e-171a-477b-a6c2-36fb17aae0e5" href="https://resources.finalsite.net/images/v1550868414/holmdelk12njus/hd5r1ijr1vedkeej5x3b/boe_min_jul_27_2015.pdf" target="_blank">July 27, 2015</a></li>
+</ul>
+
+
+	</div>
+
+
+	</div>
+
+
+
+	</div>
+
+
+	</section>
+	<section class="fsElement fsPanel fsStyleAutoclear" id="fsEl_3717" data-use-new="true" >
+
+				<header>
+			<h2 class="fsElementTitle"><a href="#fs-panel-3717">2014-2015</a></h2>
+	</header>
+	<div class="fsElementContent">
+		<a id="fs-panel-3717"></a>
+	<div class="fsElement fsContent" id="fsEl_3718" data-use-new="true" >
+
+				<div class="fsElementContent">
+			<ul>
+	<li><a data-file-name="boe_min_jun_24_2015.pdf" data-resource-uuid="2a578610-2e59-4d32-8fdc-da8be3514d44" href="https://resources.finalsite.net/images/v1550868411/holmdelk12njus/hbfijugddj01rmjnxg0g/boe_min_jun_24_2015.pdf" target="_blank">June 24, 2015</a></li>
+	<li><a data-file-name="boe_min_jun_10_2015.pdf" data-resource-uuid="f091b3b6-3748-49df-af8a-06aaa416eec2" href="https://resources.finalsite.net/images/v1550868412/holmdelk12njus/lzm4dnvzxkhcnfejz3nn/boe_min_jun_10_2015.pdf" target="_blank">June 10, 2015</a></li>
+	<li><a data-file-name="boe_min_may_27_2015.pdf" data-resource-uuid="69a81246-4341-4d51-80ae-eaaf270d4d1f" href="https://resources.finalsite.net/images/v1550868402/holmdelk12njus/a9yyp298xwpv9sslsy9d/boe_min_may_27_2015.pdf" target="_blank">May 27, 2015</a></li>
+	<li><a data-file-name="boe_min_may_13_2015.pdf" data-resource-uuid="41cff18c-d4e3-4340-91e1-25dbb28e1b52" href="https://resources.finalsite.net/images/v1550868404/holmdelk12njus/trm3i8reahifd7zesjut/boe_min_may_13_2015.pdf" target="_blank">May 13, 2015</a></li>
+	<li><a data-file-name="boe_min_apr_29_2015.pdf" data-resource-uuid="f53bc1ad-1343-4c1b-8166-48698eb6340c" href="https://resources.finalsite.net/images/v1550868423/holmdelk12njus/jtj1my5rb6mqadasgx7h/boe_min_apr_29_2015.pdf" target="_blank">April 29, 2015</a></li>
+	<li><a data-file-name="boe_min_apr_22_2015.pdf" data-resource-uuid="1ae634fe-8484-495b-9329-ff0f670f457f" href="https://resources.finalsite.net/images/v1550868424/holmdelk12njus/htmmuk9l1xuxhijxr2js/boe_min_apr_22_2015.pdf" target="_blank">April 22, 2015</a></li>
+	<li><a data-file-name="boe_min_mar_25_2015.pdf" data-resource-uuid="5eec29e5-c39b-4a03-bc5c-cfbfd76285cd" href="https://resources.finalsite.net/images/v1550868405/holmdelk12njus/hoiftzexzqn4ay0acemc/boe_min_mar_25_2015.pdf" target="_blank">March 25, 2015</a></li>
+	<li><a data-file-name="boe_min_mar_11_2015.pdf" data-resource-uuid="59f13e9b-67c6-4051-afb9-5418796fbd35" href="https://resources.finalsite.net/images/v1550868408/holmdelk12njus/ikbrysqqzwztxhvdc5kd/boe_min_mar_11_2015.pdf" target="_blank">March 11, 2015</a></li>
+	<li><a data-file-name="boe_min_feb_25_2015.pdf" data-resource-uuid="2cc13e0e-153d-401c-af6a-a9f8c1bb4ccd" href="https://resources.finalsite.net/images/v1550868418/holmdelk12njus/q8uh3qk3ioulaefewln3/boe_min_feb_25_2015.pdf" target="_blank">February 25, 2015</a></li>
+	<li><a data-file-name="boe_min_feb_11_2015.pdf" data-resource-uuid="71f8f8fe-4b33-4467-bc3c-7eaf22a3fdb7" href="https://resources.finalsite.net/images/v1550868420/holmdelk12njus/fibhacowu0zblkeqazky/boe_min_feb_11_2015.pdf" target="_blank">February 11, 2015</a></li>
+	<li><a data-file-name="boe_min_jan_28_2015.pdf" data-resource-uuid="5b210907-628f-48bf-8625-838ae2b4ca52" href="https://resources.finalsite.net/images/v1550868415/holmdelk12njus/z9la7thpdwt4wca2udcg/boe_min_jan_28_2015.pdf" target="_blank">January 28, 2015</a></li>
+	<li><a data-file-name="boe_min_jan_14_2015.pdf" data-resource-uuid="f0860b20-5dc0-401e-b87b-397282b0d5dc" href="https://resources.finalsite.net/images/v1550868416/holmdelk12njus/suqcmhl0rsgggttbz3s5/boe_min_jan_14_2015.pdf" target="_blank">January 14, 2015</a></li>
+	<li><a data-file-name="boe_min_jan_7_2015.pdf" data-resource-uuid="01e6c6a8-13c8-4e69-bb2a-87cfd31f591d" href="https://resources.finalsite.net/images/v1550868416/holmdelk12njus/vzkexg2xdbjsxsf4xszt/boe_min_jan_7_2015.pdf" target="_blank">January 7, 2015</a></li>
+	<li><a data-file-name="boe_min_dec_17_2014.pdf" data-resource-uuid="6f96ed61-1659-49da-8adb-0a47a5b8cef2" href="https://resources.finalsite.net/images/v1550868421/holmdelk12njus/ilbvkptrkkexkuidoepb/boe_min_dec_17_2014.pdf" target="_blank">December 17, 2014</a></li>
+	<li><a data-file-name="boe_min_nov_19_2014.pdf" data-resource-uuid="1ecfb641-db55-4720-9dea-684f002754c5" href="https://resources.finalsite.net/images/v1550868400/holmdelk12njus/gnfh7p3hebkvl3q0jcyg/boe_min_nov_19_2014.pdf" target="_blank">November 19, 2014</a></li>
+	<li><a data-file-name="boe_min_oct_22_2014.pdf" data-resource-uuid="3025ef89-ca1d-46dc-9abf-a7677121ccb6" href="https://resources.finalsite.net/images/v1550868398/holmdelk12njus/vz604hnuupyyp7r4xmqu/boe_min_oct_22_2014.pdf" target="_blank">October 22, 2014</a></li>
+	<li><a data-file-name="boe_min_oct_8_2014.pdf" data-resource-uuid="8534f7f5-e3c0-49f0-b32c-37c9cb002fa6" href="https://resources.finalsite.net/images/v1550868399/holmdelk12njus/e8mecjjxvvaqpj2xqtz3/boe_min_oct_8_2014.pdf" target="_blank">October 8, 2014 Board Retreat</a></li>
+	<li><a data-file-name="boe_min_sep_24_2014.pdf" data-resource-uuid="0eafc862-6dcd-497a-abb0-37ddced4e6a9" href="https://resources.finalsite.net/images/v1550868395/holmdelk12njus/djnqbfzwv94bk7oruptj/boe_min_sep_24_2014.pdf" target="_blank">September 24, 2014</a></li>
+	<li><a data-file-name="boe_min_sep_19_2014.pdf" data-resource-uuid="8d5f10a2-0e50-477f-8a8e-77317002ef98" href="https://resources.finalsite.net/images/v1550868395/holmdelk12njus/pwzbbudfuikixmotvrzp/boe_min_sep_19_2014.pdf" target="_blank">September 19, 2014</a></li>
+	<li><a data-file-name="boe_min_sep_10_2014.pdf" data-resource-uuid="6e24eb91-7271-4a5d-b376-29e0aaa2f7e2" href="https://resources.finalsite.net/images/v1550868396/holmdelk12njus/unykexmttktkz2yvfogo/boe_min_sep_10_2014.pdf" target="_blank">September 10, 2014</a></li>
+	<li><a data-file-name="boe_min_aug_27_2014.pdf" data-resource-uuid="8e9a211a-cb2c-4ea6-9038-0a60273163c7" href="https://resources.finalsite.net/images/v1550868422/holmdelk12njus/byptrseitb6e7zcjqo1o/boe_min_aug_27_2014.pdf" target="_blank">August 27, 2014</a></li>
+	<li><a data-file-name="boe_min_jul_30_2014.pdf" data-resource-uuid="8c8bfb8a-c10d-438b-b06d-0e984e7b97e8" href="https://resources.finalsite.net/images/v1550868413/holmdelk12njus/phfht3nvxdcjdagfqno0/boe_min_jul_30_2014.pdf" target="_blank">July 30, 2014</a></li>
+	<li><a data-file-name="boe_min_jul_9_2014.pdf" data-resource-uuid="b7e58294-423e-494e-81e9-eaac3f937248" href="https://resources.finalsite.net/images/v1550868414/holmdelk12njus/lib7xppzmvwxfwvobldh/boe_min_jul_9_2014.pdf" target="_blank">July 9, 2014</a></li>
+</ul>
+
+
+	</div>
+
+
+	</div>
+
+
+
+	</div>
+
+
+	</section>
+	<section class="fsElement fsPanel fsStyleAutoclear" id="fsEl_3712" data-use-new="true" >
+
+				<header>
+			<h2 class="fsElementTitle"><a href="#fs-panel-3712">	2013-2014</a></h2>
+	</header>
+	<div class="fsElementContent">
+		<a id="fs-panel-3712"></a>
+	<div class="fsElement fsContent" id="fsEl_3713" data-use-new="true" >
+
+				<div class="fsElementContent">
+			<ul>
+	<li><a data-file-name="boe_min_jun_25_2014.pdf" data-resource-uuid="3aef9956-bb47-48d7-8b42-404ec4fb72b3" href="https://resources.finalsite.net/images/v1550868411/holmdelk12njus/rdwhj0zevu379oyykjsw/boe_min_jun_25_2014.pdf" target="_blank">June 25, 2014</a></li>
+	<li><a data-file-name="boe_min_jun_11_2014.pdf" data-resource-uuid="15996547-a41d-48ea-a051-dd5243b9b0b3" href="https://resources.finalsite.net/images/v1550868411/holmdelk12njus/yh8887tnbuj1rxv9qutj/boe_min_jun_11_2014.pdf" target="_blank">June 11, 2014</a></li>
+	<li><a data-file-name="boe_min_may_28_2014.pdf" data-resource-uuid="258c188b-d807-46b5-93f4-f51cf123a310" href="https://resources.finalsite.net/images/v1550868402/holmdelk12njus/gwtifhdicvblmrgisscb/boe_min_may_28_2014.pdf" target="_blank">May 28, 2014</a></li>
+	<li><a data-file-name="boe_min_may_14_2014.pdf" data-resource-uuid="ce26785c-aeee-48a5-a981-f93c8d1a9ae1" href="https://resources.finalsite.net/images/v1550868403/holmdelk12njus/ijqaqdmdgospzvkxdqsz/boe_min_may_14_2014.pdf" target="_blank">May 14, 2014</a></li>
+	<li><a data-file-name="boe_min_apr_30_2014.pdf" data-resource-uuid="239ac11b-4f31-408d-a3d5-526130d98b75" href="https://resources.finalsite.net/images/v1550868423/holmdelk12njus/czhttznhclgj8cybepn8/boe_min_apr_30_2014.pdf" target="_blank">April 30, 2014</a></li>
+	<li><a data-file-name="boe_min_apr_9_2014.pdf" data-resource-uuid="e561d5da-36af-4ea1-aec1-30c8d5f236f5" href="https://resources.finalsite.net/images/v1550868426/holmdelk12njus/hadwpkcobqr7hr7jmerl/boe_min_apr_9_2014.pdf" target="_blank">April 9, 2014</a></li>
+	<li><a data-file-name="boe_min_mar_26_2014.pdf" data-resource-uuid="effba6f8-c01c-4b1a-8151-a35d28f63e8a" href="https://resources.finalsite.net/images/v1550868405/holmdelk12njus/f70tdhbnqo5ocdbm0qi9/boe_min_mar_26_2014.pdf" target="_blank">March 26, 2014</a></li>
+	<li><a data-file-name="boe_min_mar_12_2014.pdf" data-resource-uuid="906103be-9916-4ca1-8d9b-34ea1a0d96d2" href="https://resources.finalsite.net/images/v1550868408/holmdelk12njus/xrqiswphoukdu9xufrff/boe_min_mar_12_2014.pdf" target="_blank">March 12, 2014</a></li>
+	<li><a data-file-name="boe_min_feb_26_2014.pdf" data-resource-uuid="2b8b6a9a-823e-4ae0-acd4-e601089857b7" href="https://resources.finalsite.net/images/v1550868417/holmdelk12njus/nlsey3c03tjnquzf6qja/boe_min_feb_26_2014.pdf" target="_blank">February 26, 2014</a></li>
+	<li><a data-file-name="boe_min_feb_12_2014.pdf" data-resource-uuid="782bb9e2-c38c-47af-a650-7a2218f9cdb6" href="https://resources.finalsite.net/images/v1550868419/holmdelk12njus/jc8wfffb9h9xbubzhr2a/boe_min_feb_12_2014.pdf" target="_blank">February 12, 2014</a></li>
+	<li><a data-file-name="boe_min_jan_29_2014.pdf" data-resource-uuid="c17b5ad4-e7b9-4f6e-a635-062a85a11a2f" href="https://resources.finalsite.net/images/v1550868414/holmdelk12njus/tntogc6dcfvxopvrdehs/boe_min_jan_29_2014.pdf" target="_blank">January 29, 2014</a></li>
+	<li><a data-file-name="boe_min_jan_8_2014.pdf" data-resource-uuid="537e8fb6-624e-4e6c-be35-a3378c0c7e91" href="https://resources.finalsite.net/images/v1550868416/holmdelk12njus/hueo5tqi59odjrgzjvfm/boe_min_jan_8_2014.pdf" target="_blank">January 8, 2014</a></li>
+	<li><a data-file-name="boe_min_dec_18_2013.pdf" data-resource-uuid="123216a9-0e16-4444-97e2-c4de352770ae" href="https://resources.finalsite.net/images/v1550868420/holmdelk12njus/tsyyrrswlsnjkkmxenc5/boe_min_dec_18_2013.pdf" target="_blank">December 18, 2013</a></li>
+	<li><a data-file-name="boe_min_nov_25_2013.pdf" data-resource-uuid="2be7dc13-6a7d-4523-bdb1-7d490951f21f" href="https://resources.finalsite.net/images/v1550868399/holmdelk12njus/xkzizqcorhccvg9xvo9k/boe_min_nov_25_2013.pdf" target="_blank">November 25, 2013</a></li>
+	<li><a data-file-name="boe_min_nov_20_2013.pdf" data-resource-uuid="b38983ba-a954-4f5d-a88a-a2ccd009f1af" href="https://resources.finalsite.net/images/v1550868400/holmdelk12njus/ooa38nmcswmdmt5t8pfl/boe_min_nov_20_2013.pdf" target="_blank">November 20, 2013</a></li>
+	<li><a data-file-name="boe_min_oct_30_2013.pdf" data-resource-uuid="25f81a50-43a7-4d2e-9b94-e3101856f645" href="https://resources.finalsite.net/images/v1550868397/holmdelk12njus/kfeb4iy4a7fhbishfyzi/boe_min_oct_30_2013.pdf" target="_blank">October 30, 2013</a></li>
+	<li><a data-file-name="boe_min_oct_16_2013.pdf" data-resource-uuid="ba57cecc-0a1f-46eb-8778-bcc6d05902d4" href="https://resources.finalsite.net/images/v1550868398/holmdelk12njus/xomab26ejjta4oy0vzju/boe_min_oct_16_2013.pdf" target="_blank">October 16, 2013</a></li>
+	<li><a data-file-name="boe_min_sep_25_2013.pdf" data-resource-uuid="0c5cfdfa-7975-492f-9a16-ee6adde6c10d" href="https://resources.finalsite.net/images/v1550868394/holmdelk12njus/jj2tmqcaytghvpfeyqeg/boe_min_sep_25_2013.pdf" target="_blank">September 25, 2013</a></li>
+	<li><a data-file-name="boe_min_sep_18_2013.pdf" data-resource-uuid="25bb66a4-faa1-4791-a876-3f9375a09979" href="https://resources.finalsite.net/images/v1550868396/holmdelk12njus/l1mh9vwqufbci1g87f5h/boe_min_sep_18_2013.pdf" target="_blank">September 18, 2013</a></li>
+	<li><a data-file-name="boe_min_aug_28_2013.pdf" data-resource-uuid="6afde70d-7430-4a2d-be31-ae8f177d8d30" href="https://resources.finalsite.net/images/v1550868421/holmdelk12njus/psqrel4ghmtr9ppjgmbo/boe_min_aug_28_2013.pdf" target="_blank">August 28, 2013</a></li>
+	<li><a data-file-name="boe_min_jul31_2013.pdf" data-resource-uuid="1664c97b-783d-43bc-b554-b278688e62be" href="https://resources.finalsite.net/images/v1550868412/holmdelk12njus/ylypa7cj4cwgswlfbn3o/boe_min_jul31_2013.pdf" target="_blank">July 31, 2013</a></li>
+	<li><a data-file-name="boe_min_jul18_2013.pdf" data-resource-uuid="f1bca2a4-a4e0-4239-97cf-8e2a7b9cc8e2" href="https://resources.finalsite.net/images/v1550868412/holmdelk12njus/daec7izjaeyxvunjbqws/boe_min_jul18_2013.pdf" target="_blank">July 18, 2013</a></li>
+</ul>
+
+
+	</div>
+
+
+	</div>
+
+
+
+	</div>
+
+
+	</section>
+	<section class="fsElement fsPanel fsStyleAutoclear" id="fsEl_3703" data-use-new="true" >
+
+				<header>
+			<h2 class="fsElementTitle"><a href="#fs-panel-3703">2012-2013</a></h2>
+	</header>
+	<div class="fsElementContent">
+		<a id="fs-panel-3703"></a>
+	<div class="fsElement fsContent" id="fsEl_3704" data-use-new="true" >
+
+				<div class="fsElementContent">
+			<ul>
+	<li><a data-file-name="June_25_2013Minutes.pdf" data-resource-uuid="b9ebd8c7-8fa1-468f-be3d-32b313e499a2" href="https://resources.finalsite.net/images/v1550868389/holmdelk12njus/u1yncvvyuriyoohd6isd/June_25_2013Minutes.pdf" target="_blank">June 25, 2013</a></li>
+	<li><a data-file-name="June_19_2013_Minutes.pdf" data-resource-uuid="d1cebc49-0b34-4e9a-88bf-f471f053fbc7" href="https://resources.finalsite.net/images/v1550868389/holmdelk12njus/heobfklonianjbyepfzm/June_19_2013_Minutes.pdf" target="_blank">June 19, 2013</a></li>
+	<li><a data-file-name="June_12_2013_Minutes.pdf" data-resource-uuid="8ffdca6b-66e2-42e2-ae0a-cfaa99f6aeb1" href="https://resources.finalsite.net/images/v1550868390/holmdelk12njus/odayvrcq3sqdlckivvjh/June_12_2013_Minutes.pdf" target="_blank">June 12, 2013</a></li>
+	<li><a data-file-name="boe_min_may_29_2013.pdf" data-resource-uuid="6b2ea8b8-8d92-4a1f-b014-50d491ef2bf8" href="https://resources.finalsite.net/images/v1550868401/holmdelk12njus/pgosslgzhkqzn6bmtg0w/boe_min_may_29_2013.pdf" target="_blank">May 29, 2013</a></li>
+	<li><a data-file-name="boe_min_may_15_2013.pdf" data-resource-uuid="ec00be04-3a89-40fe-be7a-89ef57a9fb52" href="https://resources.finalsite.net/images/v1550868403/holmdelk12njus/sfmuam8uvpr0alfebbxf/boe_min_may_15_2013.pdf" target="_blank">May 15, 2013</a></li>
+	<li><a data-file-name="boe_min_apr_24_2013.pdf" data-resource-uuid="d971f851-07a9-422c-abff-932b592a8661" href="https://resources.finalsite.net/images/v1550868424/holmdelk12njus/yiphkxstpik7fnzuicdc/boe_min_apr_24_2013.pdf" target="_blank">April 24, 2013</a></li>
+	<li><a data-file-name="boe_min_apr_10_2013.pdf" data-resource-uuid="5279ef90-58ea-42fd-9e0f-0fbbe42250f2" href="https://resources.finalsite.net/images/v1550868425/holmdelk12njus/mh42oqkt8aqtwv9wweoa/boe_min_apr_10_2013.pdf" target="_blank">April 10, 2013</a></li>
+	<li><a data-file-name="boe_min_mar_21_2013.pdf" data-resource-uuid="70cb975a-d679-41f3-a345-f6c0f0a08796" href="https://resources.finalsite.net/images/v1550868406/holmdelk12njus/ov5xyhousaapqz8tsfig/boe_min_mar_21_2013.pdf" target="_blank">March 21, 2013</a></li>
+	<li><a data-file-name="boe_min_mar_13_2013.pdf" data-resource-uuid="8a3153f4-f0b7-476f-a155-ce582e825d58" href="https://resources.finalsite.net/images/v1550868407/holmdelk12njus/cc919mstsss18bsrtyvc/boe_min_mar_13_2013.pdf" target="_blank">March 13, 2013</a></li>
+	<li><a data-file-name="boe_min_mar_6_2013.pdf" data-resource-uuid="c2536605-16fc-4bcb-853e-117137466d8c" href="https://resources.finalsite.net/images/v1550868409/holmdelk12njus/xu8nuh15zvrnalqdqir9/boe_min_mar_6_2013.pdf" target="_blank">March 6, 2013</a></li>
+	<li><a data-file-name="boe_min_feb_27_2013.pdf" data-resource-uuid="5fc4a947-b80b-4c33-9f57-4da918cded79" href="https://resources.finalsite.net/images/v1550868417/holmdelk12njus/jdg48uaeejpawu9yr9vw/boe_min_feb_27_2013.pdf" target="_blank">February 27, 2013</a></li>
+	<li><a data-file-name="boe_min_feb_13_2013.pdf" data-resource-uuid="0c003bd0-c135-4934-8753-7f0530a7f631" href="https://resources.finalsite.net/images/v1550868419/holmdelk12njus/fvfe0jblknavncxrotjd/boe_min_feb_13_2013.pdf" target="_blank">February 13, 2013</a></li>
+	<li><a data-file-name="January_30_13_Minutes.pdf" data-resource-uuid="031dfcb2-8854-4497-96ea-ef634876e72c" href="https://resources.finalsite.net/images/v1550868390/holmdelk12njus/nfx2emslv1mwyqsvwf6a/January_30_13_Minutes.pdf" target="_blank">January 30, 2013</a></li>
+	<li><a data-file-name="January_9_13_Minutes.pdf" data-resource-uuid="997e2d14-d096-4f36-a32d-b8825f089537" href="https://resources.finalsite.net/images/v1550868390/holmdelk12njus/mhbka8l3bcezd8pvpqqe/January_9_13_Minutes.pdf" target="_blank">January 9, 2013</a></li>
+	<li><a data-file-name="December_19_12_Minutes.pdf" data-resource-uuid="9320301b-9701-42c2-829e-773990e7ec1f" href="https://resources.finalsite.net/images/v1550868391/holmdelk12njus/nxvfjz9zxrumifqfrqkw/December_19_12_Minutes.pdf" target="_blank">December 19, 2012</a></li>
+	<li><a data-file-name="November_28_12_Minutes.pdf" data-resource-uuid="7646a2c9-0374-45f5-a66e-83c2aa45c255" href="https://resources.finalsite.net/images/v1550868380/holmdelk12njus/qmg6az6zsnp2c8bsllul/November_28_12_Minutes.pdf" target="_blank">November 28, 2012</a></li>
+	<li><a data-file-name="November_14_12_Minutes.pdf" data-resource-uuid="9d8002d5-1320-43d1-a380-92be559afb5a" href="https://resources.finalsite.net/images/v1550868381/holmdelk12njus/udak8volehzpqdtdl7cg/November_14_12_Minutes.pdf" target="_blank">November 14, 2012</a></li>
+	<li><a data-file-name="Approved_Minutes_October_24_12.pdf" data-resource-uuid="07213423-c61e-4401-887b-c353c1f85c5d" href="https://resources.finalsite.net/images/v1550868431/holmdelk12njus/jbwjpruej4ok7ardv5oj/Approved_Minutes_October_24_12.pdf" target="_blank">October 24, 2012</a></li>
+	<li><a data-file-name="Approved_Minutes_October_10_12.pdf" data-resource-uuid="9e9b4dda-a766-4b9d-b92c-47e970ad570c" href="https://resources.finalsite.net/images/v1550868431/holmdelk12njus/elff6jt3zv6feo0itm3i/Approved_Minutes_October_10_12.pdf" target="_blank">October 10, 2012</a></li>
+	<li><a data-file-name="Approved_Minutes_September_19_12.pdf" data-resource-uuid="cb03b780-1a59-46f7-8bad-f874ea46f3cf" href="https://resources.finalsite.net/images/v1550868430/holmdelk12njus/bz06pjeiimyz5m4hkilm/Approved_Minutes_September_19_12.pdf" target="_blank">September 19, 2012</a></li>
+	<li><a data-file-name="September_12_12_Minutes.pdf" data-resource-uuid="3f38fbf1-0be4-414e-acb2-b1620cb8fb9c" href="https://resources.finalsite.net/images/v1550868380/holmdelk12njus/yrcatb4dpdjodzgk0nk5/September_12_12_Minutes.pdf" target="_blank">September 12, 2012</a></li>
+	<li><a data-file-name="Approved_Minutes_August_29_12.pdf" data-resource-uuid="b8882bfc-48ea-422e-bb2e-5b81653a0052" href="https://resources.finalsite.net/images/v1550868433/holmdelk12njus/rrmebvg2q8mrmiwttilq/Approved_Minutes_August_29_12.pdf" target="_blank">August 29, 2012</a></li>
+	<li><a data-file-name="Approved_Minutes_July_25_12.pdf" data-resource-uuid="1d1c85c8-760f-46ff-95fe-e7fd5c071b3c" href="https://resources.finalsite.net/images/v1550868432/holmdelk12njus/cuncryv88thw5w4h0qdh/Approved_Minutes_July_25_12.pdf" target="_blank">July 25, 2012</a></li>
+	<li><a data-file-name="Approved_Minutes_July_18_12_Board_Retreat.pdf" data-resource-uuid="13a9a510-79fa-4fb3-bbcc-3fb32584b5b1" href="https://resources.finalsite.net/images/v1550868432/holmdelk12njus/mk5zlqsrd8fxpbpmubys/Approved_Minutes_July_18_12_Board_Retreat.pdf" target="_blank">July 18, 2012</a></li>
+</ul>
+
+
+	</div>
+
+
+	</div>
+
+
+
+	</div>
+
+
+	</section>
+	<section class="fsElement fsPanel fsStyleAutoclear" id="fsEl_4969" data-use-new="true" >
+
+				<header>
+			<h2 class="fsElementTitle"><a href="#fs-panel-4969">2016-2017</a></h2>
+	</header>
+	<div class="fsElementContent">
+		<a id="fs-panel-4969"></a>
+	<div class="fsElement fsContent" id="fsEl_4970" data-use-new="true" >
+
+				<div class="fsElementContent">
+			<ul>
+	<li><a data-file-name="boe_min_6_28_2017.pdf" data-resource-uuid="08f6035c-a493-406e-a851-53eacb3c86e6" href="https://resources.finalsite.net/images/v1550868381/holmdelk12njus/lanwiq0ar31ra9qbxwz4/boe_min_6_28_2017.pdf" target="_blank">June 28, 2017</a></li>
+	<li><a data-file-name="boe_min_5_31_2017.pdf" data-resource-uuid="690dd1e1-9c62-4658-a9ee-a22ffb012fe4" href="https://resources.finalsite.net/images/v1551283477/holmdelk12njus/dsoazhtbxzkwaypy2s1g/boe_min_5_31_2017.pdf" target="_blank">May 31, 2017</a></li>
+	<li><a data-file-name="boe_min_4_26_2017.pdf" data-resource-uuid="c1989637-7505-49fd-abce-ed8e61fcddd2" href="https://resources.finalsite.net/images/v1551283476/holmdelk12njus/jpmsnm9kjgd0v9e09rjh/boe_min_4_26_2017.pdf" target="_blank">April 26, 2017</a></li>
+	<li><a data-file-name="boe_min_3_29_2017.pdf" data-resource-uuid="89384911-25ac-4853-b995-45b31906b6ef" href="https://resources.finalsite.net/images/v1551283473/holmdelk12njus/q518ygrjv8xnlpjvcl6c/boe_min_3_29_2017.pdf" target="_blank">March 29, 2017</a></li>
+	<li><a data-file-name="boe_min_3_15_2017.pdf" data-resource-uuid="0e33071a-4407-4966-a5ee-696393658242" href="https://resources.finalsite.net/images/v1551283472/holmdelk12njus/o2rqrwn7gybbfa5hbkga/boe_min_3_15_2017.pdf" target="_blank">March 15, 2017</a></li>
+	<li><a data-file-name="boe_min_3_1_2017.pdf" data-resource-uuid="ed22110e-06c7-4f1c-bb4e-c7e0d88e8040" href="https://resources.finalsite.net/images/v1551283473/holmdelk12njus/vqmez0yrmtgrrbeoqzga/boe_min_3_1_2017.pdf" target="_blank">March 1, 2017</a></li>
+	<li><a data-file-name="boe_min_2_1_2017.pdf" data-resource-uuid="88b60cc3-6a11-46e0-90a8-52c12d2ca218" href="https://resources.finalsite.net/images/v1551283472/holmdelk12njus/jevqbt069eqblzr9rfoy/boe_min_2_1_2017.pdf" target="_blank">February 1, 2017</a></li>
+	<li><a data-file-name="boe_min_1_25_2017.pdf" data-resource-uuid="13c3708a-8381-4c63-a8b2-936397503965" href="https://resources.finalsite.net/images/v1551283471/holmdelk12njus/becrqlnqprlzi7rei3xb/boe_min_1_25_2017.pdf" target="_blank">January 25, 2017</a></li>
+	<li><a data-file-name="boe_min_1_4_2017.pdf" data-resource-uuid="c8739eb7-b5e4-482d-bd56-9cf64b4e42a6" href="https://resources.finalsite.net/images/v1551283471/holmdelk12njus/jkxjcxfspfxsth2fazku/boe_min_1_4_2017.pdf" target="_blank">January 4, 2017</a></li>
+	<li><a data-file-name="boe_min_12_19_2016.pdf" data-resource-uuid="f1b0bc79-b3e9-48fe-a1d3-577c41f12331" href="https://resources.finalsite.net/images/v1551283470/holmdelk12njus/cvtrloi3hwqs2sprqwop/boe_min_12_19_2016.pdf" target="_blank">December 19, 2016</a></li>
+	<li><a data-file-name="boe_min_12_14_2016.pdf" data-resource-uuid="4c76ebe2-f71e-4121-b335-ea563611d7a1" href="https://resources.finalsite.net/images/v1551283470/holmdelk12njus/kvbgodrqazyg70wxuxmk/boe_min_12_14_2016.pdf" target="_blank">December 14, 2016</a></li>
+	<li><a data-file-name="boe_min_11_16_2016.pdf" data-resource-uuid="66d94589-62a9-48df-ab8b-0ff5f00efd91" href="https://resources.finalsite.net/images/v1551283469/holmdelk12njus/bmltckeo3gg1ikdfyxvp/boe_min_11_16_2016.pdf" target="_blank">November 16, 2016</a></li>
+	<li><a data-file-name="boe_min_10_19_2016.pdf" data-resource-uuid="61d955c2-fcee-43a9-b125-0fa8506f42b7" href="https://resources.finalsite.net/images/v1551283469/holmdelk12njus/phlafnqxxe3kcqqkd4ht/boe_min_10_19_2016.pdf" target="_blank">October 19, 2016</a></li>
+	<li><a data-file-name="boe_min_sep_28_2016.pdf" data-resource-uuid="51b7db16-541d-4318-8fcf-a1f4193c45c3" href="https://resources.finalsite.net/images/v1551283477/holmdelk12njus/s0jc4rthjciwzs6vdxo4/boe_min_sep_28_2016.pdf" target="_blank">September 28, 2016</a></li>
+	<li><a data-file-name="boe_min_sep_21_2016.pdf" data-resource-uuid="3d958d0d-874e-410e-84f4-96e04c49df9d" href="https://resources.finalsite.net/images/v1551283476/holmdelk12njus/hytujyjaaxpe6nskrlvc/boe_min_sep_21_2016.pdf" target="_blank">September 21, 2016</a></li>
+	<li><a data-file-name="boe_min_aug_31_2016.pdf" data-resource-uuid="3013d054-8a9c-4f22-aae3-21e0ed83b306" href="https://resources.finalsite.net/images/v1551283476/holmdelk12njus/syq8k31ecqyqu21c7mrp/boe_min_aug_31_2016.pdf" target="_blank">August 31, 2016</a></li>
+	<li><a data-file-name="boe_min_aug_10_2016.pdf" data-resource-uuid="d0601410-c155-4b2a-aea6-8d3d93ae90f1" href="https://resources.finalsite.net/images/v1551283475/holmdelk12njus/p0g8ahygkqya4wexihfa/boe_min_aug_10_2016.pdf" target="_blank">August 10, 2016</a></li>
+	<li><a data-file-name="boe_min_jul_27_2016.pdf" data-resource-uuid="d91747b4-a5d2-4637-a9d3-0ee318876814" href="https://resources.finalsite.net/images/v1551283476/holmdelk12njus/d9czpygogmta1tbskm8c/boe_min_jul_27_2016.pdf" target="_blank">July 27, 2016</a></li>
+</ul>
+
+
+	</div>
+
+
+	</div>
+
+
+
+	</div>
+
+
+	</section>
+	<section class="fsElement fsPanel fsStyleAutoclear" id="fsEl_3701" data-use-new="true" >
+
+				<header>
+			<h2 class="fsElementTitle"><a href="#fs-panel-3701">2011-2012</a></h2>
+	</header>
+	<div class="fsElementContent">
+		<a id="fs-panel-3701"></a>
+	<div class="fsElement fsContent" id="fsEl_3702" data-use-new="true" >
+
+				<div class="fsElementContent">
+			<ul>
+	<li><a data-file-name="Approved_Agenda_6_27_12.pdf" data-resource-uuid="de2b8ae8-4b88-45d7-956c-8d072993c56a" href="https://resources.finalsite.net/images/v1550868449/holmdelk12njus/e5nwgfpfa42ndcrr1ars/Approved_Agenda_6_27_12.pdf" target="_blank">June 27, 2012</a></li>
+	<li><a data-file-name="approved_minutes_6_13_2012.pdf" data-resource-uuid="3d43bd7e-121f-4113-b704-a71743fc1909" href="https://resources.finalsite.net/images/v1550868441/holmdelk12njus/uuev44ocuf5jijydnyio/approved_minutes_6_13_2012.pdf" target="_blank">June 13, 2012</a></li>
+	<li><a data-file-name="approved_minutes_6_6_2012.pdf" data-resource-uuid="558c9783-b4ec-4f2f-bc2c-3c3f4266cb16" href="https://resources.finalsite.net/images/v1550868441/holmdelk12njus/xnprlur7q6ts2repuls0/approved_minutes_6_6_2012.pdf" target="_blank">June 6, 2012</a></li>
+	<li><a data-file-name="boe_min_may_30_2012.pdf" data-resource-uuid="3b935348-3ea0-44da-8f8f-6387265ecd4e" href="https://resources.finalsite.net/images/v1550868401/holmdelk12njus/p2nsxvcg1shvmckvzd4b/boe_min_may_30_2012.pdf" target="_blank">May 30, 2012</a></li>
+	<li><a data-file-name="approved_minutes_5_16_2012.pdf" data-resource-uuid="95e8560e-0b06-4bb0-9d92-f5abbb3ed85b" href="https://resources.finalsite.net/images/v1550868442/holmdelk12njus/cugg4fcceonns20jibvs/approved_minutes_5_16_2012.pdf" target="_blank">May 16, 2012</a></li>
+	<li><a data-file-name="approved_minutes_4_25_2012.pdf" data-resource-uuid="d268cb0b-371f-45ca-be4a-742740cfc213" href="https://resources.finalsite.net/images/v1550868443/holmdelk12njus/ohjd30bnu4m2ptwt8ejp/approved_minutes_4_25_2012.pdf" target="_blank">April 25, 2012</a></li>
+	<li><a data-file-name="approved_minutes_4_18_2012.pdf" data-resource-uuid="01425cf4-e693-46ee-85ef-61c1b2ede488" href="https://resources.finalsite.net/images/v1550868444/holmdelk12njus/icbysulwcd59m8lydtug/approved_minutes_4_18_2012.pdf" target="_blank">April 18, 2012</a></li>
+	<li><a data-file-name="Approved_MInutes_3_28_12.pdf" data-resource-uuid="11040cba-11b6-41dd-a485-47e024931025" href="https://resources.finalsite.net/images/v1550868444/holmdelk12njus/sthlylszt9cbjxgfakse/Approved_MInutes_3_28_12.pdf" target="_blank">March 28, 2012</a></li>
+	<li><a data-file-name="Approved_MInutes_3_14_12.pdf" data-resource-uuid="26bebf82-fb47-4a4b-acff-56e359eea201" href="https://resources.finalsite.net/images/v1550868445/holmdelk12njus/cxz8mqt1wuufuwkwa1ky/Approved_MInutes_3_14_12.pdf" target="_blank">March 14, 2012</a></li>
+	<li><a data-file-name="minutes_boe_mtg_3_07_12.pdf" data-resource-uuid="ee107052-2594-497a-8ae8-acc65911542e" href="https://resources.finalsite.net/images/v1550868382/holmdelk12njus/nwj65qzuwq8tgnct1ebv/minutes_boe_mtg_3_07_12.pdf" target="_blank">March 7, 2012</a></li>
+	<li><a data-file-name="Approved_Minutes_2_29_12.pdf" data-resource-uuid="a0c1324d-23c3-4377-b4e7-fae4c1b750f0" href="https://resources.finalsite.net/images/v1550868446/holmdelk12njus/ityfizi3ugesrxngwqhw/Approved_Minutes_2_29_12.pdf" target="_blank">February 29, 2012</a></li>
+	<li><a data-file-name="Approved_Minutes_2_15_12.pdf" data-resource-uuid="cadddb72-20bc-4cb1-870b-bec7ef5f5e8c" href="https://resources.finalsite.net/images/v1550868446/holmdelk12njus/nbofz2rq58h7e1yvqos2/Approved_Minutes_2_15_12.pdf" target="_blank">February 15, 2012</a></li>
+	<li><a data-file-name="Approved_Minutes_Retreat_2_6_12.pdf" data-resource-uuid="d702fb1d-bd3b-485a-94a1-0661a38ffca6" href="https://resources.finalsite.net/images/v1550868430/holmdelk12njus/i9srk800gtmefjkkh0an/Approved_Minutes_Retreat_2_6_12.pdf" target="_blank">February 6, 2012</a></li>
+	<li><a data-file-name="Approved_Minutes_1_25_12.pdf" data-resource-uuid="79bebda5-f5cc-4b67-93b3-dc900379213f" href="https://resources.finalsite.net/images/v1550868448/holmdelk12njus/xxx6dffjsgx6cgxvcrot/Approved_Minutes_1_25_12.pdf" target="_blank">January 25, 2012</a></li>
+	<li><a data-file-name="Minutes_1_11_12.pdf" data-resource-uuid="7bf998b2-c184-476c-9fab-ce3a920a3b69" href="https://resources.finalsite.net/images/v1550868387/holmdelk12njus/genobeqzunnchkvzdypp/Minutes_1_11_12.pdf" target="_blank">January 11, 2012</a></li>
+	<li><a data-file-name="Minutes_12_14_11.pdf" data-resource-uuid="dc4ab0bf-d1eb-49cf-9330-9092c60cd128" href="https://resources.finalsite.net/images/v1550868383/holmdelk12njus/gxlki6wtfb3a2hhhoz1v/Minutes_12_14_11.pdf" target="_blank">December 14, 2011</a></li>
+	<li><a data-file-name="Approved_Minutes_11_16_11.pdf" data-resource-uuid="16841c59-dfcf-4e57-9c6e-7cb2bd23844b" href="https://resources.finalsite.net/images/v1550868435/holmdelk12njus/jfxel5qwbtzpsgq3vyuk/Approved_Minutes_11_16_11.pdf" target="_blank">November 16, 2011</a></li>
+	<li><a data-file-name="Approved_Minutes_10_26_11.pdf" data-resource-uuid="e9d0d662-b31c-40ec-aa64-30682010215c" href="https://resources.finalsite.net/images/v1550868436/holmdelk12njus/dvyeyilcevmfwsoqs8dq/Approved_Minutes_10_26_11.pdf" target="_blank">October 26, 2011</a></li>
+	<li><a data-file-name="Approved_MInutes_10_12_11.pdf" data-resource-uuid="652be09f-0f14-4d33-ae35-b41d146c18ee" href="https://resources.finalsite.net/images/v1550868437/holmdelk12njus/akb2uadmgz4ftabfm49g/Approved_MInutes_10_12_11.pdf" target="_blank">October 12, 2011</a></li>
+	<li><a data-file-name="BOE_September_28_2011_Minutes.pdf" data-resource-uuid="89fb652e-186c-4ad6-b88d-1e70c93994d5" href="https://resources.finalsite.net/images/v1550868428/holmdelk12njus/s5xh81k8ud4dqlqqlmfm/BOE_September_28_2011_Minutes.pdf" target="_blank">S</a><a data-file-name="BOE_September_28_2011_Minutes.pdf" data-resource-uuid="89fb652e-186c-4ad6-b88d-1e70c93994d5" href="https://resources.finalsite.net/images/v1550868428/holmdelk12njus/s5xh81k8ud4dqlqqlmfm/BOE_September_28_2011_Minutes.pdf" target="_blank">eptember 28, 2011</a></li>
+	<li><a data-file-name="Approved_Minutes_9_21_2011.pdf" data-resource-uuid="02913db6-d6b4-4a1d-b76a-f44c125b5135" href="https://resources.finalsite.net/images/v1550868439/holmdelk12njus/v4jsgqkuaiuzuuhpqser/Approved_Minutes_9_21_2011.pdf" target="_blank">September 21, 2011</a></li>
+	<li><a data-file-name="BOE_September_14_11_minutes.pdf" data-resource-uuid="7d7a6fa3-e21f-475f-97af-baf54b372636" href="https://resources.finalsite.net/images/v1550868392/holmdelk12njus/fnf80xd3nhz6fqry4ekc/BOE_September_14_11_minutes.pdf" target="_blank">September 14, 2011</a></li>
+	<li><a data-file-name="BOE_September_7_11_minutes.pdf" data-resource-uuid="2579aae0-0158-441c-b245-5f5a5f47bc0c" href="https://resources.finalsite.net/images/v1550868393/holmdelk12njus/aljk35mdtvsmhoftvptf/BOE_September_7_11_minutes.pdf" target="_blank">September 7, 2011</a></li>
+	<li><a data-file-name="BOE_July_27_11_minutes.pdf" data-resource-uuid="13b87a97-2f1b-4cfb-8a7e-3ac780396d2e" href="https://resources.finalsite.net/images/v1550868427/holmdelk12njus/rxk1uo6gbvsuxizcbncw/BOE_July_27_11_minutes.pdf" target="_blank">July 27, 2011</a></li>
+	<li><a data-file-name="BOE_July_13_2011_minutes.pdf" data-resource-uuid="7ba8219a-489e-441e-b8e8-ded4a7be8be8" href="https://resources.finalsite.net/images/v1550868427/holmdelk12njus/shk8pkdzzqeepvgqdwnh/BOE_July_13_2011_minutes.pdf" target="_blank">July 13, 2011</a></li>
+</ul>
+
+
+	</div>
+
+
+	</div>
+
+
+
+	</div>
+
+
+	</section>
+	<section class="fsElement fsPanel fsStyleAutoclear" id="fsEl_3696" data-use-new="true" >
+
+				<header>
+			<h2 class="fsElementTitle"><a href="#fs-panel-3696">2010-2011</a></h2>
+	</header>
+	<div class="fsElementContent">
+		<a id="fs-panel-3696"></a>
+	<div class="fsElement fsContent" id="fsEl_3697" data-use-new="true" >
+
+				<div class="fsElementContent">
+			<ul>
+	<li><a data-file-name="BOE_MInutes_6_29_11.pdf" data-resource-uuid="746c157d-caa7-44f1-8e89-80e5d216c7ec" href="https://resources.finalsite.net/images/v1550868393/holmdelk12njus/d1qsriselqrpahahhyut/BOE_MInutes_6_29_11.pdf" target="_blank">June 29, 2011</a></li>
+	<li><a data-file-name="BOE_Minutes_6_15_11.pdf" data-resource-uuid="c6af27bf-332b-4994-980b-942d683b6997" href="https://resources.finalsite.net/images/v1550868393/holmdelk12njus/ubmh895m2j9ode5tjcx3/BOE_Minutes_6_15_11.pdf" target="_blank">June 15, 2011</a></li>
+	<li><a data-file-name="Approved_Minutes_5_25_11.pdf" data-resource-uuid="75223650-9ac7-4ff7-a7ee-96ef311f8f69" href="https://resources.finalsite.net/images/v1550868442/holmdelk12njus/ksru40f1i1k17t203u0d/Approved_Minutes_5_25_11.pdf" target="_blank">May 25, 2011</a></li>
+	<li><a data-file-name="Approved_Minutes_5_4_11_reorg.pdf" data-resource-uuid="e8982146-47fc-4395-a598-d5a5af19dea7" href="https://resources.finalsite.net/images/v1550868443/holmdelk12njus/lpf447yrqapbpha7easm/Approved_Minutes_5_4_11_reorg.pdf" target="_blank">May 4, 2011</a></li>
+	<li><a data-file-name="Approved_Minutes_4_28_11.pdf" data-resource-uuid="1456bdb2-1375-4cd8-9d40-6233aef429be" href="https://resources.finalsite.net/images/v1550868443/holmdelk12njus/uvzpb7528jjuoitxklg8/Approved_Minutes_4_28_11.pdf" target="_blank">April 28, 2011</a></li>
+	<li><a data-file-name="Approved_Minutes_4_13_11.pdf" data-resource-uuid="36121a3a-ee1b-4e0c-af44-6d7d6456d6fe" href="https://resources.finalsite.net/images/v1550868444/holmdelk12njus/elbruszlegv14ozhcdsu/Approved_Minutes_4_13_11.pdf" target="_blank">April 13, 2011</a></li>
+	<li><a data-file-name="Minutes_3_29_11.pdf" data-resource-uuid="33c90018-032b-4154-892e-2150c6488e6b" href="https://resources.finalsite.net/images/v1550868385/holmdelk12njus/vml0yebigb9ckchspqbc/Minutes_3_29_11.pdf" target="_blank">March 29, 2011</a></li>
+	<li><a data-file-name="Minutes_3_28_11.pdf" data-resource-uuid="d069daf3-cd3e-4f80-877a-a2f71156d3b4" href="https://resources.finalsite.net/images/v1550868385/holmdelk12njus/zht3nxvromct5d7hsazw/Minutes_3_28_11.pdf" target="_blank">March 28, 2011</a></li>
+	<li><a data-file-name="Minutes_3_16_11.pdf" data-resource-uuid="d85d895d-babc-4c53-abe8-ca25d88ea581" href="https://resources.finalsite.net/images/v1550868385/holmdelk12njus/wfxwife2l2cdiaafrfcm/Minutes_3_16_11.pdf" target="_blank">March 16, 2011</a></li>
+	<li><a data-file-name="Minutes_3_2_11.pdf" data-resource-uuid="6f3694ac-fa66-499a-ae47-88e0793f701d" href="https://resources.finalsite.net/images/v1550868386/holmdelk12njus/vwrdyh5ipieufy6gs7lm/Minutes_3_2_11.pdf" target="_blank">March 2, 2011</a></li>
+	<li><a data-file-name="Minutes_2_23_11.pdf" data-resource-uuid="d85a7fc8-b16b-4ebc-bff3-bcd73e592212" href="https://resources.finalsite.net/images/v1550868386/holmdelk12njus/xgts89btznvyda7q982h/Minutes_2_23_11.pdf" target="_blank">February 23, 2011</a></li>
+	<li><a data-file-name="Approved_Minutes_2_9_11.pdf" data-resource-uuid="6c858576-9840-43cb-8a6c-2888a226575e" href="https://resources.finalsite.net/images/v1550868447/holmdelk12njus/rw7juhqu9ge7dgouxwlz/Approved_Minutes_2_9_11.pdf" target="_blank">February 9, 2011</a></li>
+	<li><a data-file-name="Approved_Minutes_2_2_11.pdf" data-resource-uuid="d4f5d48b-62de-497a-92d6-85e479171a97" href="https://resources.finalsite.net/images/v1550868447/holmdelk12njus/mqog5jxgfega3vb43ivk/Approved_Minutes_2_2_11.pdf" target="_blank">February 2, 2011</a></li>
+	<li><a data-file-name="Approved_Minutes_12_22_10.pdf" data-resource-uuid="f9791240-792a-40ba-8daa-09481568cdc2" href="https://resources.finalsite.net/images/v1550868433/holmdelk12njus/y5b2fgg8hhrbcrllmyap/Approved_Minutes_12_22_10.pdf" target="_blank">December 22, 2010</a></li>
+	<li><a data-file-name="Approve_Minutes_12_1_10.pdf" data-resource-uuid="c723958d-4aad-452f-be24-727cd812c310" href="https://resources.finalsite.net/images/v1550868449/holmdelk12njus/rwv49ncwx8ivgbpqewwa/Approve_Minutes_12_1_10.pdf" target="_blank">December 1, 2010</a></li>
+	<li><a data-file-name="Approved_Minutes_11_17_10.pdf" data-resource-uuid="e41335d6-d984-40d0-a907-d1b75c7253bd" href="https://resources.finalsite.net/images/v1550868434/holmdelk12njus/y8pj43f6aonu2qd60aot/Approved_Minutes_11_17_10.pdf" target="_blank">November 17, 2010</a></li>
+	<li><a data-file-name="Approved_Minutes_10_27_10.pdf" data-resource-uuid="0c17c186-90f7-4305-a771-6702c5399254" href="https://resources.finalsite.net/images/v1550868436/holmdelk12njus/ypclp59zhgwlqnwuljs2/Approved_Minutes_10_27_10.pdf" target="_blank">October 27, 2010</a></li>
+	<li><a data-file-name="Emergency_Closed_Exec_Session_10-20-10.pdf" data-resource-uuid="d349f01b-8c37-4434-86b8-e3a1734af332" href="https://resources.finalsite.net/images/v1550868391/holmdelk12njus/eosvf1kytbdww52yk6ju/Emergency_Closed_Exec_Session_10-20-10.pdf" target="_blank">October 20, 2010</a></li>
+	<li><a data-file-name="Approved_Minutes_10_13_10.pdf" data-resource-uuid="2bfe8fe9-9651-48d8-bf3c-ef32a99a5d9e" href="https://resources.finalsite.net/images/v1550868437/holmdelk12njus/ntfackmix0y7txgysi8c/Approved_Minutes_10_13_10.pdf" target="_blank">October 13, 2010</a></li>
+	<li><a data-file-name="Approved_Minutes_9_29_10.pdf" data-resource-uuid="07dd553d-93fb-4f82-b3fa-36e7d846a193" href="https://resources.finalsite.net/images/v1550868438/holmdelk12njus/fwy7jxmvgzp64cylsl3k/Approved_Minutes_9_29_10.pdf" target="_blank">September 29, 2010</a></li>
+	<li><a data-file-name="Approved_Minutes_9_15_10.pdf" data-resource-uuid="179564ed-4ab7-4e39-886f-8ebe329e2eaa" href="https://resources.finalsite.net/images/v1550868439/holmdelk12njus/se8ejqfpkgzrw0il0hjq/Approved_Minutes_9_15_10.pdf" target="_blank">September 15, 2010</a></li>
+	<li><a data-file-name="Approved_Minutes_8_25_10.pdf" data-resource-uuid="1ee900f7-a3ea-41be-ad37-db500645728b" href="https://resources.finalsite.net/images/v1550868440/holmdelk12njus/yxckl1mjcwm1uohjquym/Approved_Minutes_8_25_10.pdf" target="_blank">August 25, 2010</a></li>
+	<li><a data-file-name="Minutes_7_28_10.pdf" data-resource-uuid="5f6c5f84-3e5d-4edd-8ffb-092a203234ff" href="https://resources.finalsite.net/images/v1550868383/holmdelk12njus/f20ibogeqe7a1tg1xazz/Minutes_7_28_10.pdf" target="_blank">July 28, 2010</a></li>
+	<li><a data-file-name="Minutes_7_14_10.pdf" data-resource-uuid="a0c81b9f-9a3d-49a7-b830-fd4e4f36480f" href="https://resources.finalsite.net/images/v1550868384/holmdelk12njus/z8ju4qalr34cw52kh4bq/Minutes_7_14_10.pdf" target="_blank">July 14, 2010</a></li>
+</ul>
+
+
+	</div>
+
+
+	</div>
+
+
+
+	</div>
+
+
+	</section>
+	<section class="fsElement fsPanel fsStyleAutoclear" id="fsEl_3688" data-use-new="true" >
+
+				<header>
+			<h2 class="fsElementTitle"><a href="#fs-panel-3688">2009-2010</a></h2>
+	</header>
+	<div class="fsElementContent">
+		<a id="fs-panel-3688"></a>
+	<div class="fsElement fsContent" id="fsEl_3689" data-use-new="true" >
+
+				<div class="fsElementContent">
+			<ul>
+	<li><a data-file-name="Approved_Minutes_6_30_10.pdf" data-resource-uuid="d3784a8c-e269-4fce-abf5-1e983e0f9a0d" href="https://resources.finalsite.net/images/v1550868440/holmdelk12njus/qbgbkeduzs6p0msecmow/Approved_Minutes_6_30_10.pdf" target="_blank">June 30, 2010</a></li>
+	<li><a data-file-name="Minutes_6-16-10.pdf" data-resource-uuid="bd4d65f2-dbc2-4f5a-a0d0-6c208c31dd9b" href="https://resources.finalsite.net/images/v1550868388/holmdelk12njus/k1fegetsqyhcyavu3cq9/Minutes_6-16-10.pdf" target="_blank">June 16, 2010</a></li>
+	<li><a data-file-name="Approved_Minutes6_9_10.pdf" data-resource-uuid="fe1ee19a-1b1b-4eaa-a1c9-d3eac552ed3f" href="https://resources.finalsite.net/images/v1550868430/holmdelk12njus/buzpxovsd5ly2loz0bjw/Approved_Minutes6_9_10.pdf" target="_blank">June 9, 2010</a></li>
+	<li><a data-file-name="Minutes_5_26_10.pdf" data-resource-uuid="29ef1554-9688-42e0-a696-0eaf21b09246" href="https://resources.finalsite.net/images/v1550868384/holmdelk12njus/t0svsvrocqflqc9oiap9/Minutes_5_26_10.pdf" target="_blank">May 26, 2010</a></li>
+	<li><a data-file-name="Minutes_5_19_10.pdf" data-resource-uuid="ae8919a9-5ca3-4e2e-be89-aca337603a4b" href="https://resources.finalsite.net/images/v1550868384/holmdelk12njus/rylrzjstaw07vtarcrq4/Minutes_5_19_10.pdf" target="_blank">May 19, 2010</a></li>
+	<li><a data-file-name="Approved_MInutes_5_12_10.pdf" data-resource-uuid="6cae3e96-08aa-4581-8b17-7513da6ceffc" href="https://resources.finalsite.net/images/v1550868442/holmdelk12njus/yephxbitnv8hripbechf/Approved_MInutes_5_12_10.pdf" target="_blank">May 12, 2010</a></li>
+	<li><a data-file-name="ApprovedMinutes_reorg_4_28_10.pdf" data-resource-uuid="514e5be8-6480-4f9f-970e-e6474b5636a7" href="https://resources.finalsite.net/images/v1550868429/holmdelk12njus/i3ialsvb7qq8taauum54/ApprovedMinutes_reorg_4_28_10.pdf" target="_blank">April 28, 2010</a></li>
+	<li><a data-file-name="Minutes_4-14-10.pdf" data-resource-uuid="132a4890-e23a-4bbe-97af-791c3f66a160" href="https://resources.finalsite.net/images/v1550868388/holmdelk12njus/bawml9onhkuqfdmnst6j/Minutes_4-14-10.pdf" target="_blank">April 14, 2010</a></li>
+	<li><a data-file-name="approvedMinutes_Public_Hearing3_31_10.pdf" data-resource-uuid="bf7e27bd-a0c0-4077-a890-622c7dd02df3" href="https://resources.finalsite.net/images/v1550868429/holmdelk12njus/wmmvg5br4w5vaalyxtjp/approvedMinutes_Public_Hearing3_31_10.pdf" target="_blank">March 31, 2010</a></li>
+	<li><a data-file-name="approvedminutes3_24_10.pdf" data-resource-uuid="7dad66ea-2ff5-45c7-ac7a-4eab4fd09860" href="https://resources.finalsite.net/images/v1550868428/holmdelk12njus/fp7dbdjow07uakzh69qp/approvedminutes3_24_10.pdf" target="_blank">March 24, 2010</a></li>
+	<li><a data-file-name="Approved_Minutes_3_10_10.pdf" data-resource-uuid="bb3b3671-c20c-49a3-8d98-a40416a276ff" href="https://resources.finalsite.net/images/v1550868445/holmdelk12njus/a0nnnxdvrh05yx1xvotp/Approved_Minutes_3_10_10.pdf" target="_blank">March 10, 2010</a></li>
+	<li><a data-file-name="approved_Minutes_2_24_10.pdf" data-resource-uuid="6aa90387-b9b4-4fa8-ae18-56935f419f62" href="https://resources.finalsite.net/images/v1550868446/holmdelk12njus/ccoqmdx70mmw25xnllmn/approved_Minutes_2_24_10.pdf" target="_blank">February 24, 2010</a></li>
+	<li><a data-file-name="ApprovedBOE_Minutes_2_17_10.pdf" data-resource-uuid="e02c52f5-2289-4f7d-9775-a0847d5de7cd" href="https://resources.finalsite.net/images/v1550868429/holmdelk12njus/hxvqop9fwswgdvwv9alj/ApprovedBOE_Minutes_2_17_10.pdf" target="_blank">February 17, 2010</a></li>
+	<li><a data-file-name="approved_minutes_1_27_10.pdf" data-resource-uuid="21b99cf3-0aad-4f21-afd0-0f24f28c2c84" href="https://resources.finalsite.net/images/v1550868448/holmdelk12njus/dgbbuuitljf5a5cfcvwf/approved_minutes_1_27_10.pdf" target="_blank">January 27, 2010</a></li>
+	<li><a data-file-name="Approved_Minutes_1_13_10.pdf" data-resource-uuid="55d3146f-bbd8-4f56-a5f1-08d1044b703b" href="https://resources.finalsite.net/images/v1550868449/holmdelk12njus/etzdmmb7egdj4gcg8ub8/Approved_Minutes_1_13_10.pdf" target="_blank">January 13, 2010</a></li>
+	<li><a data-file-name="Approved_Minutes_12_16_09.pdf" data-resource-uuid="71aa8167-2663-45ed-bcc3-91233edff312" href="https://resources.finalsite.net/images/v1550868434/holmdelk12njus/zaultcuiobcamp2z38tu/Approved_Minutes_12_16_09.pdf" target="_blank">December 16, 2009</a></li>
+	<li><a data-file-name="Approved_Minutes_11_18_09.pdf" data-resource-uuid="28e7a4c8-e689-44e5-9064-bf78de704db6" href="https://resources.finalsite.net/images/v1550868434/holmdelk12njus/osypudov7l8jekkmc3g9/Approved_Minutes_11_18_09.pdf" target="_blank">November 18, 2009</a></li>
+	<li><a data-file-name="Approved_Minutes_10_28_09.pdf" data-resource-uuid="2ec91b49-6a12-4b47-a0a5-ea203b24baf9" href="https://resources.finalsite.net/images/v1550868435/holmdelk12njus/w9vk5g33fbnawv954puz/Approved_Minutes_10_28_09.pdf" target="_blank">October 28, 2009</a></li>
+	<li><a data-file-name="Approved_Minutes_10_14_09.pdf" data-resource-uuid="f1893436-95ce-4522-af13-2dfd0482c5e1" href="https://resources.finalsite.net/images/v1550868436/holmdelk12njus/xej5vx7yhjxh6ygta2zx/Approved_Minutes_10_14_09.pdf" target="_blank">October 14, 2009</a></li>
+	<li><a data-file-name="Approved_Minutes_9_30_09.pdf" data-resource-uuid="bf0dc5b8-01a7-4bb5-bc80-2684ee99834c" href="https://resources.finalsite.net/images/v1550868438/holmdelk12njus/qvsuishqmb11hnq9emzr/Approved_Minutes_9_30_09.pdf" target="_blank">September 30, 2009</a></li>
+	<li><a data-file-name="Approved_Minutes_9_16_09.pdf" data-resource-uuid="f6180e00-6edd-4b8e-b09a-3c2b32cf0a62" href="https://resources.finalsite.net/images/v1550868439/holmdelk12njus/b875uupmukf3gxxwfk9k/Approved_Minutes_9_16_09.pdf" target="_blank">September 16, 2009</a><a data-file-name="Closed_Exec_Session_9_16_09_Exp.pdf" data-resource-uuid="6483db26-c27a-4ce8-a712-753ed1726259" href="https://resources.finalsite.net/images/v1550868392/holmdelk12njus/lsjmnzhys9yf9botgior/Closed_Exec_Session_9_16_09_Exp.pdf" target="_blank">&nbsp;Exec</a></li>
+	<li><a data-file-name="Approved_Minutes_9_16_09.pdf" data-resource-uuid="f6180e00-6edd-4b8e-b09a-3c2b32cf0a62" href="https://resources.finalsite.net/images/v1550868439/holmdelk12njus/b875uupmukf3gxxwfk9k/Approved_Minutes_9_16_09.pdf" target="_blank">September 16, 2009</a></li>
+	<li><a data-file-name="Minutes_8_26_09_PDF.pdf" data-resource-uuid="d410c3bf-4611-4b26-a462-3d5192ac1db2" href="https://resources.finalsite.net/images/v1550868383/holmdelk12njus/coilnjoveojtezdynld4/Minutes_8_26_09_PDF.pdf" target="_blank">August 26, 2009</a></li>
+	<li><a data-file-name="Minutes_7-29-09.pdf" data-resource-uuid="8d616403-9ea4-463b-9173-b7f68ede664b" href="https://resources.finalsite.net/images/v1550868388/holmdelk12njus/ffyqv1terpek0idt2jml/Minutes_7-29-09.pdf" target="_blank">July 29, 2009</a></li>
+</ul>
+
+
+	</div>
+
+
+	</div>
+
+
+
+	</div>
+
+
+	</section>
+	<section class="fsElement fsPanel fsStyleAutoclear" id="fsEl_3686" data-use-new="true" >
+
+				<header>
+			<h2 class="fsElementTitle"><a href="#fs-panel-3686">2008-2009</a></h2>
+	</header>
+	<div class="fsElementContent">
+		<a id="fs-panel-3686"></a>
+	<div class="fsElement fsContent" id="fsEl_3687" data-use-new="true" >
+
+				<div class="fsElementContent">
+			<ul>
+	<li><a data-file-name="6-24-09_Regular_Business_Minutes.pdf" data-resource-uuid="54bafcf0-ab38-45f0-a4e5-6206ce0bbb3b" href="https://resources.finalsite.net/images/v1550868455/holmdelk12njus/ke15patlr8un3j31niis/6-24-09_Regular_Business_Minutes.pdf" target="_blank">June 24, 2009</a></li>
+	<li><a data-file-name="Minutes_6-17-09.pdf" data-resource-uuid="02f322a2-a18a-49a9-bb5f-f65ee8d11473" href="https://resources.finalsite.net/images/v1550868387/holmdelk12njus/h17zoxbjncp0adsh6bgj/Minutes_6-17-09.pdf" target="_blank">June 17, 2009</a></li>
+	<li><a data-file-name="6-10-09_Minutes.pdf" data-resource-uuid="161ae8d2-82d2-4180-876b-ed285dad22ea" href="https://resources.finalsite.net/images/v1550868455/holmdelk12njus/l0agxxplorxlbkh7see5/6-10-09_Minutes.pdf" target="_blank">June 10, 2009</a></li>
+	<li><a data-file-name="5-27-09_Regular_Mtg_w_attachments.pdf" data-resource-uuid="49437312-8c0a-41f8-bfc6-d7e56ede1d65" href="https://resources.finalsite.net/images/v1550868456/holmdelk12njus/knmtk7uytfrmu0yqmbl1/5-27-09_Regular_Mtg_w_attachments.pdf" target="_blank">May 27, 2009</a></li>
+	<li><a data-file-name="5-13-09_Closed_Exec_Session.pdf" data-resource-uuid="9828670f-ca65-43d3-bb3c-3ebaa4c99c5a" href="https://resources.finalsite.net/images/v1550868457/holmdelk12njus/qaftbxqjqoenn4o2tz2d/5-13-09_Closed_Exec_Session.pdf" target="_blank">May 13, 2009</a></li>
+	<li><a data-file-name="5-06-09_Work-Bus_Mtg_w_attachments.pdf" data-resource-uuid="94a9e1f0-add5-4d02-ab54-31e1107fed13" href="https://resources.finalsite.net/images/v1550868457/holmdelk12njus/zdriduf00rmdbthy61gn/5-06-09_Work-Bus_Mtg_w_attachments.pdf" target="_blank">May 6, 2009</a></li>
+	<li><a data-file-name="4-29-09_Reorg_Mtg_w_attachments.pdf" data-resource-uuid="ca624ef9-f151-45e7-bc10-f23bd4401c3c" href="https://resources.finalsite.net/images/v1550868459/holmdelk12njus/qwwcckaybvpylyf9aqv5/4-29-09_Reorg_Mtg_w_attachments.pdf" target="_blank">April 29, 2009</a></li>
+	<li><a data-file-name="minutes_boe_mtg_4_22_09.pdf" data-resource-uuid="9031f14c-5588-4ea3-b8eb-7d3259f344c2" href="https://resources.finalsite.net/images/v1550868381/holmdelk12njus/w051yafpqvcadehgfnou/minutes_boe_mtg_4_22_09.pdf" target="_blank">April 22, 2009</a></li>
+	<li><a data-file-name="4-1-09_Regular_Business_Meeting.pdf" data-resource-uuid="54694e66-ce0d-46d2-9425-bcc53c3f9a47" href="https://resources.finalsite.net/images/v1550868459/holmdelk12njus/cogg2mtxvnondkplivnu/4-1-09_Regular_Business_Meeting.pdf" target="_blank">April 1, 2009</a></li>
+	<li><a data-file-name="3_25_09_minutes_boe_mtg.pdf" data-resource-uuid="204cd7e4-5ea9-4b72-83a4-23eb53ff0f1f" href="https://resources.finalsite.net/images/v1550868382/holmdelk12njus/jzlvnjbmhqe4ypmvhgva/3_25_09_minutes_boe_mtg.pdf" target="_blank">March 25, 2009</a></li>
+	<li><a data-file-name="3-11-09_Work-Business_Meeting.pdf" data-resource-uuid="9e4353af-1800-4d49-a00b-77d0341c00ea" href="https://resources.finalsite.net/images/v1550868460/holmdelk12njus/qwmvio0h4o7lqulkme3j/3-11-09_Work-Business_Meeting.pdf" target="_blank">March 11, 2009</a></li>
+	<li><a data-file-name="2-25-09_Regular_Business_Meeting.pdf" data-resource-uuid="16c65de9-c064-4fc6-8754-dbb21516528f" href="https://resources.finalsite.net/images/v1550868461/holmdelk12njus/lzwak0xmkrjrdabgvczl/2-25-09_Regular_Business_Meeting.pdf" target="_blank">February 25, 2009</a></li>
+	<li><a data-file-name="2-11-09_Regular_Business_Meeting.pdf" data-resource-uuid="4fedef53-8ea7-4196-a87f-252acaddc5cb" href="https://resources.finalsite.net/images/v1550868462/holmdelk12njus/mdznk74th2ormjpa1sfp/2-11-09_Regular_Business_Meeting.pdf" target="_blank">February 11, 2009</a></li>
+	<li><a data-file-name="1-14-09_Work-Business_Meeting_2.pdf" data-resource-uuid="f9cbd2d0-0242-4317-89ec-a7e12f8378ea" href="https://resources.finalsite.net/images/v1550868462/holmdelk12njus/tfpvuqgu1jsfykh2uzbv/1-14-09_Work-Business_Meeting_2.pdf" target="_blank">January 14, 2009</a></li>
+	<li><a data-file-name="12-17-08_Regular_Business_Meeting.pdf" data-resource-uuid="d4d2ecb4-117b-4274-a7a2-09f71624432f" href="https://resources.finalsite.net/images/v1550868450/holmdelk12njus/ekwsmt0g4plq4qgdoqai/12-17-08_Regular_Business_Meeting.pdf" target="_blank">December 17, 2008</a></li>
+	<li><a data-file-name="11-19-08_Regular_Bus_Meeting.pdf" data-resource-uuid="5b396bd3-df76-442b-a0e0-9e9583737857" href="https://resources.finalsite.net/images/v1550868450/holmdelk12njus/ok2zgwexc1wjfarb9soh/11-19-08_Regular_Bus_Meeting.pdf" target="_blank">November 19, 2008</a></li>
+	<li><a data-file-name="11-12-08_Work-Business_Meeting.pdf" data-resource-uuid="2f45c144-f59b-43a6-9ce4-9cb68ff5f06d" href="https://resources.finalsite.net/images/v1550868451/holmdelk12njus/wf0wmsux7w2wcilurfti/11-12-08_Work-Business_Meeting.pdf" target="_blank">November 12, 2008</a></li>
+	<li><a data-file-name="10-29-08_Regular_Business_Meeting_Minutes.pdf" data-resource-uuid="c79a5460-5c9b-451e-9fed-d1f87db09ef6" href="https://resources.finalsite.net/images/v1550868451/holmdelk12njus/gbtw7maftxhhxdatirjf/10-29-08_Regular_Business_Meeting_Minutes.pdf" target="_blank">October 29, 2008</a></li>
+	<li><a data-file-name="10-15-08_Work-Business_Meeting_Minutes.pdf" data-resource-uuid="ea20e54c-40d3-4821-a4c4-43339e5522fc" href="https://resources.finalsite.net/images/v1550868451/holmdelk12njus/tlqqa1bcpsjictlcjbvj/10-15-08_Work-Business_Meeting_Minutes.pdf" target="_blank">October 15, 2008</a></li>
+	<li><a data-file-name="9-24-08_Regular_Bus_Minutes.pdf" data-resource-uuid="8c0533c2-7fda-4a91-a5c5-4fe8ce517ce3" href="https://resources.finalsite.net/images/v1550868452/holmdelk12njus/yka64vn7hkzxw6fs0x6u/9-24-08_Regular_Bus_Minutes.pdf" target="_blank">September 24, 2008</a></li>
+	<li><a data-file-name="9-10-08_Work-Business_Meeting.pdf" data-resource-uuid="c5197850-3c0b-4aac-a69a-1970f753b7cf" href="https://resources.finalsite.net/images/v1550868452/holmdelk12njus/ck0nbhkiz925xma1fvns/9-10-08_Work-Business_Meeting.pdf" target="_blank">September 10, 2008</a></li>
+	<li><a data-file-name="8-27-08_Regular_Business_Meeting.pdf" data-resource-uuid="786c03e9-7197-4709-b631-04fcea44825b" href="https://resources.finalsite.net/images/v1550868452/holmdelk12njus/bhleegxfmexo5xmnsqjb/8-27-08_Regular_Business_Meeting.pdf" target="_blank">August 27, 2008</a></li>
+	<li><a data-file-name="8-6-08_Special_Agenda_Minutes.pdf" data-resource-uuid="3838a1db-235e-428e-8482-be1ddbb820a8" href="https://resources.finalsite.net/images/v1550868453/holmdelk12njus/bn0cqphn7x2pe6ey6gsr/8-6-08_Special_Agenda_Minutes.pdf" target="_blank">August 6, 2008</a></li>
+	<li><a data-file-name="7-23-08_Reg_Bus_Mtg_Minutes.pdf" data-resource-uuid="6efa592e-3654-4fe6-8ef6-2442af7db871" href="https://resources.finalsite.net/images/v1550868453/holmdelk12njus/mxh6tooehxaasssaeo4b/7-23-08_Reg_Bus_Mtg_Minutes.pdf" target="_blank">July 23, 2008</a></li>
+</ul>
+
+
+	</div>
+
+
+	</div>
+
+
+
+	</div>
+
+
+	</section>
+
+
+
+
+	</div>
+
+
+	</div>
+
+
+
+
+	</div>
+
+
+
+
+	</div>
+
+
+
+				</main>
+			</div>
+		</div>
+
+			<footer id="fsFooter" class="fsFooter">
+				<div class=" fsBanner fsStyleAutoclear" id="fsEl_9" >
+
+			<div class="fsElement fsNavigation fsList nav-util" id="fsEl_724" data-use-new="true" >
+
+				<div class="fsElementContent">
+		<nav><ul class="fsNavLevel1"><li><a href="../../contact-us.html">Contact Us</a></li><li><a href="../../departments/human-resources-and-compliance.html">Employment</a></li><li><a href="../../support.html">Support</a></li><li><a href="../../ealert-mailing-list.html">E-Alert Mailing  List</a></li></ul></nav>
+	</div>
+
+
+	</div>
+	<div class="fsElement fsContent footer-logo" id="fsEl_725" data-use-new="true" >
+
+				<div class="fsElementContent">
+			<a href="../../index.html" title="Holmdel Schools Logo link back to home page"><img width="944" src="../../uploaded/District/images/htslogo.jpg" alt="Holmdel Township Schools Logo" title="Holmdel Township Schools Logo"></a><div style="text-align: center;"></div><div style="text-align: center;"></div>
+
+	</div>
+
+
+	</div>
+	<div class="fsElement fsContent" id="fsEl_726" data-use-new="true" >
+
+				<div class="fsElementContent">
+			<!--
+///////////////////////////////////////////////
+  School Details
+///////////////////////////////////////////////
+-->
+<!-- .school-details-container -->
+<p><span itemprop="streetAddress">65 McCampbell Road<br></span>Holmdel, NJ <span itemprop="postalCode">07733<br>Tel: 732-946-1800<br></span></p><p></p>
+
+	</div>
+
+
+	</div>
+	<div class="fsElement fsContent" id="fsEl_727" data-use-new="true" >
+
+				<div class="fsElementContent">
+			<nav class="nav-social nav-icons" aria-label="social navigation">
+  <ul class="nav-social__list clearfix">
+    
+    <li class="nav-social__item nav-social__item--facebook">
+      <a class="nav-social__anchor" href="https://www.facebook.com/GoHolmdel" target="_blank" title="Link to Facebook">
+        <span class="nav-social__text">Facebook</span>
+      </a>
+    </li>
+    <li class="nav-social__item nav-social__item--twitter">
+      <a class="nav-social__anchor" href="https://twitter.com/holmdelschools" target="_blank" title="Link to Twitter">
+        <span class="nav-social__text">Twitter</span></a></li>
+    
+    
+  </ul>
+</nav>
+
+	</div>
+
+
+	</div>
+
+
+
+
+				<div id="fsPoweredByFinalsite" role="complementary">
+		<div>
+			<a href="https://www.finalsite.com/district" title="Powered by Finalsite opens in a new window" target="_blank">Powered by Finalsite</a>
+		</div>
+	</div>
+
+</div>
+
+
+			</footer>
+
+
+
+</div>
+
+
+
+
+
+<script src="../../../static.finalsite.net/assets/application-92ca8d1e2e1983601d432281b68b91e6875f06888134db7607ccd64a19930433.js"></script>
+
+	<script src="../../uploaded/themes/madison/js/maine35c.js?1541781981"></script>
+
+
+
+
+
+</body>
+<!-- Mirrored from www.holmdelschools.org/board-of-education/meetings-agendas/previous-school-year-board-minutes by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 28 Oct 2019 22:56:06 GMT -->
+</html>
